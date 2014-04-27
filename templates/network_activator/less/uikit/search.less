@@ -1,0 +1,64 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+//
+// Component: Search
+//
+// ========================================================================
+
+// Variables
+// ========================================================================
+
+@search-width:                                  @global-height + 10;
+@search-focus-width:                            210px;
+@search-height:                                 @global-height + 10;
+@search-padding:                                50px;
+@search-border:                                 rgba(0,0,0,0);
+@search-color:                                  @global-color;
+@search-placeholder-color:                      rgba(0,0,0,0);
+@search-icon-size:                              @navbar-nav-font-size;
+@search-icon-color:                             @navbar-nav-color;
+@search-close-size:                             @search-icon-size;
+@search-close-color:                            @search-icon-color;
+
+
+// Component
+// ========================================================================
+
+.hook-search() { }
+
+.hook-search-icon() { padding: 0 0; }
+
+
+// Sub-object `uk-search-field`
+// ========================================================================
+
+.hook-search-field() {
+    position: relative;
+    z-index: 1;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    color: @navbar-nav-color;
+}
+
+.hook-search-field-focus() { border: none; }
+
+
+// Sub-object `uk-search-close`
+// ========================================================================
+
+.hook-search-close() { z-index: 2; }
+
+
+// Miscellaneous
+// ========================================================================
+
+.hook-search-misc() {
+
+    .uk-search-field:focus,
+    .uk-active .uk-search-field {
+        padding: 0 @search-padding;
+        cursor: text;
+    }
+
+}
