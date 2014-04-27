@@ -42,7 +42,7 @@ include($this['path']->path('layouts:theme.config.php'));
 
 	<?php if ($this['widgets']->count('logo + headerbar + menu + search')) : ?>
 
-		<div class="tm-headerbar<?php if (!$this['widgets']->count('top-teaser')) echo ' tm-headerbar-plain' ?> uk-clearfix">
+		<div class="tm-headerbar tm-headerbar-small<?php if (!$this['widgets']->count('top-teaser')) echo ' tm-headerbar-plain' ?> uk-clearfix">
 
 			<div class="uk-container uk-container-center">
 

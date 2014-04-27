@@ -12,18 +12,4 @@ jQuery(function($) {
     var doc     = $(document),
         header  = $('.tm-headerbar');
 
-    if ($('body').hasClass('tm-navbar-fixed')) {
-
-        doc.on('scroll', function(){
-
-            if(doc.scrollTop() > 100){
-                header.addClass('tm-headerbar-small');
-            } else{
-                header.removeClass('tm-headerbar-small');
-            }
-
-        });
-
-    }
-
 });
