@@ -8,6 +8,19 @@
 
 /* Text Format Overrides */
 
+h1, h2, h3, h4, h5, h6 {
+    letter-spacing: 0;
+}
+
+.uk-article-title {
+    font-size: 21px;
+    line-height: 25px;
+    font-weight: normal;
+    text-transform: none;
+}
+
+/* Teaser */
+
 .tm-teaser h1, .tm-teaser h2, .tm-teaser h3, .tm-teaser h4, .tm-teaser h5, .tm-teaser h6 {
   color: #000000;
 }
