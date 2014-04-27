@@ -54,7 +54,7 @@
 }
 
 .tm-navbar-fixed .tm-teaser {
-    background-position: 0 0;
+    background-position: center 30%;
     background-size: 180%;
 }
 
@@ -72,36 +72,7 @@ background-image: url("/images/modules/frontpage_banner/1920_city_backgrop.jpg")
 
 /* Box overrides */
 
-* Sub-modifier: `uk-panel-box-primary`
-*/
-.uk-panel-box-primary {
-    background-color: #0bc9eb;
-    color: #cef4fb;
-    border: 1px solid #0bc9eb;
-}
-.uk-panel-box-primary a {
-    color: #088da5;
-}
-.uk-panel-box-primary a:hover {
-    color: #066576;
-}
-.uk-panel-box-primary .uk-panel-title {
-    color: #ffffff;
-}
-/*
- * Sub-modifier: `uk-panel-box-secondary`
- */
-.uk-panel-box-secondary {
-    background-color: #e3eaf3;
-    color: #474d51;
-    border: 1px solid #e3eaf3;
-}
-.uk-panel-box-secondary a {
-    color: #474d51;
-}
-.uk-panel-box-secondary a:hover {
-    color: #474d51;
-}
-.uk-panel-box-secondary .uk-panel-title {
+.tm-block-secondary {
+    background: #e3eaf3;
     color: #474d51;
 }
