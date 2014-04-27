@@ -18,14 +18,6 @@
 
 		<div class="uk-width-1-1 uk-width-medium-3-4">
 
-            <?php if ($image && $image_alignment != 'none') : ?>
-                <?php if ($url) : ?>
-                    <a class="uk-align-<?php echo $image_alignment; ?>" href="<?php echo $url; ?>" title="<?php echo $image_caption; ?>"><img src="<?php echo $image; ?>" alt="<?php echo $image_alt; ?>"></a>
-                <?php else : ?>
-                    <img class="uk-align-<?php echo $image_alignment; ?>" src="<?php echo $image; ?>" alt="<?php echo $image_alt; ?>">
-                <?php endif; ?>
-            <?php endif; ?>
-
 		<?php if ($title) : ?>
 		<h1 class="uk-article-title">
 			<?php if ($url && $title_link) : ?>
@@ -39,7 +31,13 @@
 
 	<?php echo $hook_aftertitle; ?>
 	
-
+	<?php if ($image && $image_alignment != 'none') : ?>
+		<?php if ($url) : ?>
+			<a class="uk-align-<?php echo $image_alignment; ?>" href="<?php echo $url; ?>" title="<?php echo $image_caption; ?>"><img src="<?php echo $image; ?>" alt="<?php echo $image_alt; ?>"></a>
+		<?php else : ?>
+			<img class="uk-align-<?php echo $image_alignment; ?>" src="<?php echo $image; ?>" alt="<?php echo $image_alt; ?>">
+		<?php endif; ?>
+	<?php endif; ?>
 
 	<?php echo $hook_beforearticle; ?>
 	
@@ -128,6 +126,14 @@
 		<?php endif; ?>
 	<?php endif; ?>
 
+    <?php if ($image && $image_alignment != 'none') : ?>
+        <?php if ($url) : ?>
+            <a class="uk-align-<?php echo $image_alignment; ?>" href="<?php echo $url; ?>" title="<?php echo $image_caption; ?>"><img src="<?php echo $image; ?>" alt="<?php echo $image_alt; ?>"></a>
+        <?php else : ?>
+            <img class="uk-align-<?php echo $image_alignment; ?>" src="<?php echo $image; ?>" alt="<?php echo $image_alt; ?>">
+        <?php endif; ?>
+    <?php endif; ?>
+
 	<?php if ($title) : ?>
 	<h1 class="uk-article-title">
 		<?php if ($url && $title_link) : ?>
@@ -167,13 +173,9 @@
 	</p>
 	<?php endif; ?>
 
-	<?php if ($image && $image_alignment != 'none') : ?>
-		<?php if ($url) : ?>
-			<a class="uk-align-<?php echo $image_alignment; ?>" href="<?php echo $url; ?>" title="<?php echo $image_caption; ?>"><img src="<?php echo $image; ?>" alt="<?php echo $image_alt; ?>"></a>
-		<?php else : ?>
-			<img class="uk-align-<?php echo $image_alignment; ?>" src="<?php echo $image; ?>" alt="<?php echo $image_alt; ?>">
-		<?php endif; ?>
-	<?php endif; ?>
+    <?php if ($tags) : ?>
+        <p><?php echo JText::_('TPL_WARP_TAGS').': '.$tags; ?></p>
+    <?php endif; ?>
 
 	<?php echo $hook_beforearticle; ?>
 	
@@ -181,10 +183,6 @@
 	<div>
 		<?php echo $article; ?>
 	</div>
-	<?php endif; ?>
-
-	<?php if ($tags) : ?>
-	<p><?php echo JText::_('TPL_WARP_TAGS').': '.$tags; ?></p>
 	<?php endif; ?>
 
 	<?php if ($more) : ?>
