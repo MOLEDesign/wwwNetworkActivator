@@ -19,13 +19,13 @@
 		<div class="uk-width-1-1 uk-width-medium-3-4">
 
 		<?php if ($title) : ?>
-		<h1 class="uk-article-title">
+		<h2 class="uk-article-title">
 			<?php if ($url && $title_link) : ?>
 				<a href="<?php echo $url; ?>" title="<?php echo $title; ?>"><?php echo $title; ?></a>
 			<?php else : ?>
 				<span><?php echo $title; ?></span>
 			<?php endif; ?>
-		</h1>
+		</h2>
 		<?php endif; ?>
 
 
@@ -146,6 +146,10 @@
 
 	<?php echo $hook_aftertitle; ?>
 
+    <?php if ($tags) : ?>
+        <p><?php echo JText::_('TPL_WARP_TAGS').': '.$tags; ?></p>
+    <?php endif; ?>
+
 	<?php if ($author || $date || $category) : ?>
 	<p class="uk-article-meta">
 
@@ -173,17 +177,17 @@
 	</p>
 	<?php endif; ?>
 
-    <?php if ($tags) : ?>
-        <p><?php echo JText::_('TPL_WARP_TAGS').': '.$tags; ?></p>
-    <?php endif; ?>
+
 
 	<?php echo $hook_beforearticle; ?>
-	
+
 	<?php if ($article) : ?>
 	<div>
 		<?php echo $article; ?>
 	</div>
 	<?php endif; ?>
+
+
 
 	<?php if ($more) : ?>
 	<p>
