@@ -69,6 +69,28 @@ background-image: url("/images/modules/frontpage_banner/1920_city_backgrop.jpg")
     visibility: visible !important;
 }
 
+.wk-slideshow-tabsbar .slides-container {
+    border: none;
+    background: inherit;
+    border-radius: none;
+}
+
+.wk-slideshow-tabsbar .nav li {
+    border: none;
+}
+
+.wk-slideshow-tabsbar .nav-container {
+    border: none;
+    background: inherit;
+    border-radius: none;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+.wk-slideshow-tabsbar .nav-container {
+    margin-left: 370px;
+}
+
 
 /* Box overrides */
 

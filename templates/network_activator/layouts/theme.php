@@ -99,12 +99,20 @@ include($this['path']->path('layouts:theme.config.php'));
 	<?php endif; ?>
 
 	<?php if ($this['widgets']->count('top-b')) : ?>
-	<div class="tm-block <?php echo $block_classes['top-b']; echo $display_classes['top-b']; ?> ">
-		<div class="<?php echo $width_classes['top-b']; ?> uk-container uk-container-center">
-			<section class="<?php echo $grid_classes['top-b']; ?>" data-uk-grid-match="{target:'> div > .uk-panel'}" data-uk-grid-margin><?php echo $this['widgets']->render('top-b', array('layout'=>$this['config']->get('grid.top-b.layout'))); ?></section>
-		</div>
-	</div>
-	<?php endif; ?>
+            <div class="tm-block <?php echo $block_classes['top-b']; echo $display_classes['top-b']; ?> ">
+                <div class="<?php echo $width_classes['top-b']; ?> uk-container uk-container-center">
+                    <section class="<?php echo $grid_classes['top-b']; ?>" data-uk-grid-match="{target:'> div > .uk-panel'}" data-uk-grid-margin><?php echo $this['widgets']->render('top-b', array('layout'=>$this['config']->get('grid.top-b.layout'))); ?></section>
+                </div>
+            </div>
+        <?php endif; ?>
+
+        <?php if ($this['widgets']->count('top-c')) : ?>
+            <div class="tm-block <?php echo $block_classes['top-c']; echo $display_classes['top-c']; ?> ">
+                <div class="<?php echo $width_classes['top-c']; ?> uk-container uk-container-center">
+                    <section class="<?php echo $grid_classes['top-c']; ?>" data-uk-grid-match="{target:'> div > .uk-panel'}" data-uk-grid-margin><?php echo $this['widgets']->render('top-c', array('layout'=>$this['config']->get('grid.top-c.layout'))); ?></section>
+                </div>
+            </div>
+        <?php endif; ?>
 
 	<?php if ($this['widgets']->count('main-top + main-bottom + sidebar-a + sidebar-b') || $this['config']->get('system_output', true)) : ?>
 	<div class="tm-block <?php echo $block_classes['main']; ?> ">

@@ -30,6 +30,7 @@
             <rows label="Position">
                 <row>top-a</row>
                 <row>top-b</row>
+                <row>top-c</row>
                 <row>bottom-a</row>
                 <row>bottom-b</row>
                 <row>bottom-c</row>
@@ -87,6 +88,7 @@
                 <rows label="Position">
                     <row>top-a</row>
                     <row>top-b</row>
+                    <row>top-c</row>
                     <row>bottom-a</row>
                     <row>bottom-b</row>
                     <row>bottom-c</row>
@@ -110,6 +112,7 @@
                 <rows label="Position">
                     <row>top-a</row>
                     <row>top-b</row>
+                    <row>top-c</row>
                     <row>main</row>
                     <row>bottom-a</row>
                     <row>bottom-b</row>
