@@ -17,8 +17,8 @@ JHtml::addIncludePath(JPATH_COMPONENT.'/helpers/html');
 JHtml::_('behavior.tooltip');
 JHtml::_('behavior.framework');
 
-    $this->item->tagLayout = new JLayoutFile('joomla.content.tags');
-    $tagsoutput = $this->item->tagLayout->render($this->item->tags->itemTags);
+$this->item->tagLayout = new JLayoutFile('joomla.content.tags');
+$tagsoutput = $this->item->tagLayout->render($this->item->tags->itemTags);
 
 // template args
 $args = array(

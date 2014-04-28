@@ -147,7 +147,7 @@
 	<?php echo $hook_aftertitle; ?>
 
     <?php if ($tags) : ?>
-        <p><?php echo JText::_('TPL_WARP_TAGS').': '.$tags; ?></p>
+        <p><?php echo $tags; ?></p>
     <?php endif; ?>
 
 	<?php if ($author || $date || $category) : ?>
