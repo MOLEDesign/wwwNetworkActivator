@@ -56,10 +56,6 @@ h1, h2, h3, h4, h5, h6 {
   height: auto;
 }
 
-.uk-navbar-nav > li {
-  margin: 0 20px;
-}
-
 /* Teaser Overrides */
 
 .tm-teaser {
