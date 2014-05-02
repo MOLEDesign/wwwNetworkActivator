@@ -85,7 +85,6 @@ class Navbar
         foreach ($element->find('li.level1') as $li) {
             $li->attr("data-uk-dropdown", "{}");
 
-
             if ($li->attr('data-menu-subtitle')) {
                 $li->first("a")->addClass('uk-navbar-nav-subtitle');
             }
