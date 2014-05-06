@@ -7060,7 +7060,7 @@ input.uk-search-field {
 }
 .tm-teaser {
   position: relative;
-  height: 600px;
+  height: 220px;
   overflow: hidden;
 }
 .tm-teaser > .uk-container {
@@ -7086,7 +7086,7 @@ input.uk-search-field {
   padding-top: 202px;
 }
 .tm-navbar-fixed .tm-headerbar + .tm-teaser {
-  padding-top: 140px;
+  padding-top: 80px;
 }
 .tm-navbar-fixed .tm-teaser {
   background-position: 0 0;
@@ -7299,7 +7299,7 @@ input.uk-search-field {
   background: #0bc9eb;
 }
 .tm-teaser-text-primary {
-  color: #ffffff;
+  color: #000000;
   text-transform: none;
   letter-spacing: 0;
   font-weight: 300;
@@ -7307,7 +7307,7 @@ input.uk-search-field {
   line-height: 60pt;
 }
 .tm-teaser-text-secondary {
-  color: #ffffff;
+  color: #000000;
   font-weight: 300;
   font-size: 22px;
   line-height: 26px;
