@@ -1,1 +1,14 @@
 /* WIP */
+
+.tm-block-black {
+    background: #000000;
+    color: #FFFFFF;
+}
+.tm-block-black h1,
+.tm-block-black h2,
+.tm-block-black h3,
+.tm-block-black h4,
+.tm-block-black h5,
+.tm-block-black h6 {
+    color: #FFFFFF;
+}

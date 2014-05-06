@@ -123,6 +123,7 @@
                     <option value="">Default</option>
                     <option value=" tm-block-primary">Primary</option>
                     <option value=" tm-block-secondary">Secondary</option>
+                    <option value=" tm-block-black">Black</option>
                 </field>
                 <field type="select" name="block-padding" label="Padding" default="tm-position-padding-top-bottom">
                     <option value="">No Padding</option>
