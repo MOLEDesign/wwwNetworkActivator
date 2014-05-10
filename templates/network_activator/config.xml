@@ -86,6 +86,7 @@
             <field type="section" name="Grid" description="Choose the grid layout for each position. Further, you can enable horizontal dividers and prevent the responsive grid behavior. Note: Both options are not taken into account for the stacked layout." />
             <field type="table" name="grid">
                 <rows label="Position">
+                    <row>top-teaser</row>
                     <row>top-a</row>
                     <row>top-b</row>
                     <row>top-c</row>
