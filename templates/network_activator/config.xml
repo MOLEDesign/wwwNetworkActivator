@@ -99,6 +99,7 @@
                     <option value="parallel">Parallel</option>
                     <option value="stacked">Stacked</option>
                     <option value="doubled">First doubled</option>
+                    <option value="teamtwo">Team - Two People</option>
                 </field>
                 <field type="select" name="responsive" label="Responsive" default="medium">
                     <option value="">Disabled</option>
