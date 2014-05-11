@@ -82,6 +82,27 @@ h1, h2, h3, h4, h5, h6 {
     background: #10B700;
 }
 
+.tm-button-teaser {
+    margin-top: 15px;
+    padding: 0px 30px;
+    min-width: 250px;
+    color: #FFFFFF;
+    background: #10B700;
+}
+
+/* Panels */
+
+.uk-panel-title {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 26px;
+    line-height: 27px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #238fe3;
+    text-align: center;
+}
+
 /* Menu Overrides */
 
 
