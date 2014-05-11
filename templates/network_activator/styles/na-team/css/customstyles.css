@@ -6,11 +6,49 @@
    Use this file to add custom CSS easily
  ========================================================================== */
 
-/* Text Format Overrides */
-
-.tm-teaser {
-    z-index: -1;
+/*
+ * Visibility
+ * Avoids setting display to `block`
+ */
+/* Desktop and bigger */
+@media (min-width: 960px) {
+    .uk-visible-small {
+        display: none !important;
+    }
+    .uk-visible-medium {
+        display: none !important;
+    }
+    .uk-hidden-large {
+        display: none !important;
+    }
 }
+/* Only tablets portrait */
+@media (min-width: 768px) and (max-width: 959px) {
+    .uk-visible-small {
+        display: none !important;
+    }
+    .uk-visible-large {
+        display: none !important ;
+    }
+    .uk-hidden-medium {
+        display: none !important;
+    }
+}
+/* Phone landscape and smaller */
+@media (max-width: 767px) {
+    .uk-visible-medium {
+        display: none !important;
+    }
+    .uk-visible-large {
+        display: none !important;
+    }
+    .uk-hidden-small {
+        display: none !important;
+    }
+}
+
+
+/* Text Format Overrides */
 
 h1, h2, h3, h4, h5, h6 {
     letter-spacing: 0;
@@ -24,10 +62,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Teaser */
-
-.tm-teaser h1, .tm-teaser h2, .tm-teaser h3, .tm-teaser h4, .tm-teaser h5, .tm-teaser h6 {
-    color: #000000;
-}
 
 .tm-teaser-text-primary {
     color: #000000;
@@ -50,10 +84,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Menu Overrides */
 
-.tm-headerbar .uk-navbar-nav > li > a {
-    height: 55px;
-    line-height: 55px;
-}
 
 .tm-navbar-fixed .tm-headerbar-small .uk-navbar-brand img, .tm-navbar-fixed .tm-headerbar-small .uk-navbar-brand a {
     width: inherit;
@@ -62,21 +92,25 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Teaser Overrides */
 
-.tm-teaser {
-    height: 220px;
+
+.teaser-text-area {
+    padding-top: 78px;
 }
 
-.tm-navbar-fixed .tm-teaser {
-    background-position: center 70%;
-    background-size: 180%;
-}
+@media (max-width: 480px) {
+    .teaser-text-area {
+        padding-top: 0px;
+    }
 
-
-.tm-teaser {
-    background-image: url("../../../../../images/modules/page_banners/banner_team.jpg");
 }
 
 /* Widgetkit Overrides */
+
+.wk-slideshow-tabsbar .nav, .wk-slideshow-tabsbar .nav li, .wk-slideshow-tabsbar .nav span {
+    color: #000;
+}
+
+
 
 .wk-slideshow .next, .wk-slideshow .prev {
     visibility: visible !important;
@@ -101,8 +135,29 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .wk-slideshow-tabsbar .nav-container {
-    margin-left: 370px;
+    width: 100%;
+    margin-left: 33%;
 }
+
+.wk-slideshow-tabsbar .nav span {
+    border-right: none;
+}
+
+.wk-slideshow-tabsbar .nav li.active {
+    padding-bottom: 1px;
+    background: none;
+    border: solid 1px #fff;
+    border-radius: 4px;
+}
+
+.wk-slideshow-tabsbar .nav li.active span {
+    color: #fff;
+}
+
+.wk-slideshow-tabsbar .nav li:hover{
+    background:none;
+}
+
 
 
 /* Box overrides */
@@ -123,4 +178,25 @@ h1, h2, h3, h4, h5, h6 {
 .tm-block-black h5,
 .tm-block-black h6 {
     color: #FFFFFF;
+}
+
+.tm-block-tertiary {
+    background: #0f9fe2;
+    color: #FFFFFF;
+}
+.tm-block-tertiary h1,
+.tm-block-tertiary h2,
+.tm-block-tertiary h3,
+.tm-block-tertiary h4,
+.tm-block-tertiary h5,
+.tm-block-tertiary h6 {
+    color: #FFFFFF;
+}
+
+
+/* Team layout */
+
+.tm-two-team-layout .uk-grid{
+    width:70%;
+    margin: 0px auto;
 }

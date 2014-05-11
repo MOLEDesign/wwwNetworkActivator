@@ -6,6 +6,48 @@
    Use this file to add custom CSS easily
  ========================================================================== */
 
+/*
+ * Visibility
+ * Avoids setting display to `block`
+ */
+/* Desktop and bigger */
+@media (min-width: 960px) {
+    .uk-visible-small {
+        display: none !important;
+    }
+    .uk-visible-medium {
+        display: none !important;
+    }
+    .uk-hidden-large {
+        display: none !important;
+    }
+}
+/* Only tablets portrait */
+@media (min-width: 768px) and (max-width: 959px) {
+    .uk-visible-small {
+        display: none !important;
+    }
+    .uk-visible-large {
+        display: none !important ;
+    }
+    .uk-hidden-medium {
+        display: none !important;
+    }
+}
+/* Phone landscape and smaller */
+@media (max-width: 767px) {
+    .uk-visible-medium {
+        display: none !important;
+    }
+    .uk-visible-large {
+        display: none !important;
+    }
+    .uk-hidden-small {
+        display: none !important;
+    }
+}
+
+
 /* Text Format Overrides */
 
 h1, h2, h3, h4, h5, h6 {
@@ -149,4 +191,12 @@ h1, h2, h3, h4, h5, h6 {
 .tm-block-tertiary h5,
 .tm-block-tertiary h6 {
     color: #FFFFFF;
+}
+
+
+/* Team layout */
+
+.tm-two-team-layout .uk-grid{
+    width:70%;
+    margin: 0px auto;
 }

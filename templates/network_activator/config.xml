@@ -100,7 +100,6 @@
                     <option value="parallel">Parallel</option>
                     <option value="stacked">Stacked</option>
                     <option value="doubled">First doubled</option>
-                    <option value="teamtwo">Team - Two People</option>
                 </field>
                 <field type="select" name="responsive" label="Responsive" default="medium">
                     <option value="">Disabled</option>
@@ -134,6 +133,7 @@
                     <option value="tm-block-padding-top">Top Padding</option>
                     <option value="tm-block-padding-bottom">Bottom Padding</option>
                     <option value="tm-block-padding-top-bottom">Top-Bottom Padding</option>
+                    <option value="tm-two-team-layout">Two Team Layout</option>
                 </field>
                 <field type="checkbox" name="block-width" value="1" column="Full Screen" />
                 <field type="checkbox" name="block-divider" value="1" column="Divider" />

@@ -60,16 +60,16 @@ include($this['path']->path('layouts:theme.config.php'));
 				<?php endif; ?>
 
 				<?php if ($this['widgets']->count('menu')) : ?>
-				<div class="uk-navbar-nav uk-navbar-flip uk-hidden-small">
+				<div class="uk-navbar-nav uk-navbar-flip uk-hidden-small uk-hidden-medium">
 					<?php echo $this['widgets']->render('menu'); ?>
 				</div>
 				<?php endif; ?>
 
-				<?php if ($this['widgets']->count('offcanvas')) : ?>
-				<a href="#offcanvas" class="uk-navbar-toggle uk-navbar-flip uk-visible-small" data-uk-offcanvas></a>
-				<?php endif; ?>
+                <?php if ($this['widgets']->count('offcanvas')) : ?>
+                    <a href="#offcanvas" class="uk-navbar-toggle uk-navbar-flip uk-hidden-xlarge uk-hidden-large" data-uk-offcanvas></a>
+                <?php endif; ?>
 
-				<?php if ($this['widgets']->count('logo-small')) : ?>
+                <?php if ($this['widgets']->count('logo-small')) : ?>
 				<a class="tm-logo-small uk-navbar-brand uk-visible-small" href="<?php echo $this['config']->get('site_url'); ?>"><?php echo $this['widgets']->render('logo-small'); ?></a>
 
 				<?php endif; ?>
