@@ -21,10 +21,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Teaser */
 
-.tm-teaser h1, .tm-teaser h2, .tm-teaser h3, .tm-teaser h4, .tm-teaser h5, .tm-teaser h6 {
-    color: #000000;
-}
-
 .tm-teaser-text-primary {
     color: #000000;
     text-transform: none;
@@ -56,6 +52,12 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Widgetkit Overrides */
 
+.wk-slideshow-tabsbar .nav, .wk-slideshow-tabsbar .nav li, .wk-slideshow-tabsbar .nav span {
+    color: #000;
+}
+
+
+
 .wk-slideshow .next, .wk-slideshow .prev {
     visibility: visible !important;
 }
@@ -81,6 +83,26 @@ h1, h2, h3, h4, h5, h6 {
 .wk-slideshow-tabsbar .nav-container {
     margin-left: 370px;
 }
+
+.wk-slideshow-tabsbar .nav span {
+    border-right: none;
+}
+
+.wk-slideshow-tabsbar .nav li.active {
+    padding-bottom: 1px;
+    background: none;
+    border: solid 1px #fff;
+    border-radius: 4px;
+}
+
+.wk-slideshow-tabsbar .nav li.active span {
+    color: #fff;
+}
+
+.wk-slideshow-tabsbar .nav li:hover{
+    background:none;
+}
+
 
 
 /* Box overrides */
