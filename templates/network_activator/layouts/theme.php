@@ -59,9 +59,15 @@ include($this['path']->path('layouts:theme.config.php'));
 				</div>
 				<?php endif; ?>
 
-				<?php if ($this['widgets']->count('menu')) : ?>
+
+				<?php if ($this['widgets']->count('menu + menucustom')) : ?>
 				<div class="uk-navbar-nav uk-navbar-flip uk-hidden-small uk-hidden-medium">
-					<?php echo $this['widgets']->render('menu'); ?>
+
+
+                    <?php echo $this['widgets']->render('menu'); ?>
+                    <?php if ($this['widgets']->count('menucustom')) : ?>
+                        <?php echo $this['widgets']->render('menucustom'); ?>
+                    <?php endif; ?>
 				</div>
 				<?php endif; ?>
 

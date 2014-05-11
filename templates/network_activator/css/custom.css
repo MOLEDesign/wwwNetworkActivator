@@ -5,3 +5,14 @@
 /* ========================================================================
    Use this file to add custom CSS easily
  ========================================================================== */
+
+/* GLobal Team Code */
+
+.team-title {
+    padding: 5px;
+    background-color: #0f9fe2;
+    width: 170px;
+    color: #fff;
+    margin: 0px auto;
+    margin-top: 20px;
+}

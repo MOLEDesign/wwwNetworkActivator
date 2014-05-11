@@ -41,6 +41,7 @@
         <position settings="">logo</position>
         <position settings="">logo-small</position>
         <position settings="">menu</position>
+        <position settings="">menucustom</position>
         <position settings="">toolbar-l</position>
         <position settings="">toolbar-r</position>
         <position settings="">headerbar</position>
