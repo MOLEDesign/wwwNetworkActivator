@@ -14,7 +14,7 @@ JHtml::addIncludePath(JPATH_COMPONENT.'/helpers');
 ?>
 
 <?php if ($this->params->get('show_page_heading')) : ?>
-<div class="page-header"><h1><?php echo $this->escape($this->params->get('page_heading')); ?></h1></div>
+<div class="page-header"><h1>HHHH<?php echo $this->escape($this->params->get('page_heading')); ?></h1></div>
 <?php endif; ?>
 
 <?php if ($this->params->get('page_subheading')) : ?>

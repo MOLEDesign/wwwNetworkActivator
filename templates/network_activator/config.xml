@@ -20,11 +20,11 @@
         <field type="checkbox" name="bootstrap" value="0" label="Disable Bootstrap." />
         <field type="section" name="Content" description="Display specific content elements in the theme." />
         <field type="checkbox" name="totop_scroller" value="0" label="Hide To-top scroller." />
-        <field type="checkbox" name="warp_branding" value="0" label="Hide Warp branding." />
+        <field type="checkbox" name="warp_branding" value="1" label="Hide Warp branding." />
         <field type="section" name="Social Buttons" description="Display Tweet, Google+ or Like buttons in your posts to share them in social media." />
-        <field type="checkbox" name="twitter" value="1" label="Show Tweet button." />
-        <field type="checkbox" name="plusone" value="1" label="Show Google+ button." />
-        <field type="checkbox" name="facebook" value="1" label="Show Facebook Like button." />
+        <field type="checkbox" name="twitter" value="0" label="Show Tweet button." />
+        <field type="checkbox" name="plusone" value="0" label="Show Google+ button." />
+        <field type="checkbox" name="facebook" value="0" label="Show Facebook Like button." />
         <field type="section" name="Modules" description="Choose the default module style for each position." />
         <field type="table" name="panel_default">
             <rows label="Position">
@@ -86,7 +86,6 @@
             <field type="section" name="Grid" description="Choose the grid layout for each position. Further, you can enable horizontal dividers and prevent the responsive grid behavior. Note: Both options are not taken into account for the stacked layout." />
             <field type="table" name="grid">
                 <rows label="Position">
-                    <row>top-teaser</row>
                     <row>top-a</row>
                     <row>top-b</row>
                     <row>top-c</row>
@@ -124,6 +123,7 @@
                     <option value="">Default</option>
                     <option value=" tm-block-primary">Primary</option>
                     <option value=" tm-block-secondary">Secondary</option>
+                    <option value=" tm-block-tertiary">Tertiary</option>
                     <option value=" tm-block-black">Black</option>
                 </field>
                 <field type="select" name="block-padding" label="Padding" default="tm-position-padding-top-bottom">
