@@ -7087,7 +7087,7 @@ input.uk-search-field {
   padding-top: 202px;
 }
 .tm-navbar-fixed .tm-headerbar + .tm-teaser {
-  padding-top: 140px;
+  padding-top: 68px;
 }
 .tm-navbar-fixed .tm-teaser {
     background-position: center 30%;
@@ -7288,7 +7288,7 @@ input.uk-search-field {
   color: #243c4f;
 }
 .tm-teaser {
-    background-image: url("../../../../../images/modules/frontpage_banner/1920_city_backgrop.jpg");
+    background-image: url("../../../../../images/modules/frontpage_banner/1920_city_backdrop_bubbles.jpg");
 }
 .tm-headerbar {
   background: #238fe3;
@@ -7541,7 +7541,7 @@ svg.uk-circlechart text {
     height: 55px;
   }
   .tm-headerbar + .tm-wrapper {
-    padding-top: 55px !important;
+    padding-top: 68px !important;
   }
   .tm-toolbar + .tm-headerbar + .tm-wrapper {
     padding-top: 117px !important;
@@ -7559,7 +7559,7 @@ svg.uk-circlechart text {
     top: -10px;
   }
   .tm-navbar-fixed .tm-headerbar {
-    height: 55px;
+    height: 68px;
   }
   .tm-headerbar,
   .uk-navbar-brand,
@@ -7583,7 +7583,7 @@ svg.uk-circlechart text {
     padding-top: 177px;
   }
   .tm-navbar-fixed .tm-headerbar + .tm-teaser {
-    padding-top: 55px;
+    padding-top: 68px;
   }
   .tm-navbar-fixed .tm-toolbar + .tm-headerbar + .tm-teaser {
     padding-top: 117px;

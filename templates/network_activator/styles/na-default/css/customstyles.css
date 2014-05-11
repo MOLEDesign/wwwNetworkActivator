@@ -50,6 +50,18 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Teaser Overrides */
 
+
+.teaser-text-area {
+    padding-top: 78px;
+}
+
+@media (max-width: 480px) {
+    .teaser-text-area {
+        padding-top: 0px;
+    }
+
+}
+
 /* Widgetkit Overrides */
 
 .wk-slideshow-tabsbar .nav, .wk-slideshow-tabsbar .nav li, .wk-slideshow-tabsbar .nav span {
@@ -81,7 +93,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .wk-slideshow-tabsbar .nav-container {
-    margin-left: 370px;
+    width: 100%;
+    margin-left: 33%;
 }
 
 .wk-slideshow-tabsbar .nav span {
