@@ -46,10 +46,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Menu Overrides */
 
-.tm-headerbar .uk-navbar-nav > li > a {
-    height: 55px;
-    line-height: 55px;
-}
 
 .tm-navbar-fixed .tm-headerbar-small .uk-navbar-brand img, .tm-navbar-fixed .tm-headerbar-small .uk-navbar-brand a {
     width: inherit;
@@ -57,20 +53,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Teaser Overrides */
-
-.tm-teaser {
-    height: 665px;
-}
-
-.tm-navbar-fixed .tm-teaser {
-    background-position: center 30%;
-    background-size: 180%;
-}
-
-
-.tm-teaser {
-    background-image: url("../../../../../images/modules/frontpage_banner/1920_city_backgrop.jpg");
-}
 
 /* Widgetkit Overrides */
 

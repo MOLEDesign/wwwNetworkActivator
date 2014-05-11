@@ -1979,7 +1979,7 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
   color: #ffffff;
   font-size: 18px;
   font-family: 'Open Sans';
-  font-weight: normal;
+  font-weight: inherit;
 }
 /* Appear not as link */
 .uk-navbar-nav > li > a[href='#'] {
@@ -3226,6 +3226,7 @@ select.uk-form-width-mini {
   vertical-align: middle;
   text-decoration: none;
   text-align: center;
+    text-transform: uppercase;
   /* 2 */
   border: none;
   /* 3 */
@@ -7060,7 +7061,7 @@ input.uk-search-field {
 }
 .tm-teaser {
   position: relative;
-  height: 600px;
+  height: 665px;
   overflow: hidden;
 }
 .tm-teaser > .uk-container {
@@ -7089,8 +7090,8 @@ input.uk-search-field {
   padding-top: 140px;
 }
 .tm-navbar-fixed .tm-teaser {
-  background-position: 0 0;
-  background-size: 100% 740px;
+    background-position: center 30%;
+    background-size: 2772px;
 }
 .tm-navbar-fixed .tm-toolbar + .tm-headerbar + .tm-teaser {
   padding-top: 202px;
@@ -7112,11 +7113,11 @@ input.uk-search-field {
 .tm-navbar-fixed .tm-headerbar-small .uk-navbar-brand,
 .tm-navbar-fixed .tm-headerbar-small .uk-navbar-content,
 .tm-navbar-fixed .tm-headerbar-small .uk-navbar-toggle {
-  height: 55px;
+  height: 68px;
 }
 .tm-navbar-fixed .tm-headerbar-small .uk-navbar-nav > li > a {
-  height: 55px;
-  line-height: 55px;
+  height: 68px;
+  line-height: 68px;
 }
 .tm-navbar-fixed .tm-headerbar-small .uk-navbar-brand img,
 .tm-navbar-fixed .tm-headerbar-small .uk-navbar-brand a {
@@ -7287,7 +7288,7 @@ input.uk-search-field {
   color: #ffffff;
 }
 .tm-teaser {
-  background: #238fe3;
+    background-image: url("../../../../../images/modules/frontpage_banner/1920_city_backgrop.jpg");
 }
 .tm-headerbar {
   background: #238fe3;
