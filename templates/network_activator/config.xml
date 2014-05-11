@@ -112,6 +112,7 @@
             <field type="section" name="Position Appereance" description="Choose the appereance settings for each position." />
             <field type="table" name="block">
                 <rows label="Position">
+                    <row>top-teaser</row>
                     <row>top-a</row>
                     <row>top-b</row>
                     <row>top-c</row>
