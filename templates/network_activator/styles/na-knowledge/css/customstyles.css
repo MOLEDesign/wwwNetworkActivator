@@ -159,41 +159,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-
-/* Box overrides */
-
-.tm-block-secondary {
-    background: #e3eaf3;
-    color: #474d51;
-}
-
-.tm-block-black {
-    background: #000000;
-    color: #FFFFFF;
-}
-.tm-block-black h1,
-.tm-block-black h2,
-.tm-block-black h3,
-.tm-block-black h4,
-.tm-block-black h5,
-.tm-block-black h6 {
-    color: #FFFFFF;
-}
-
-.tm-block-tertiary {
-    background: #0f9fe2;
-    color: #FFFFFF;
-}
-.tm-block-tertiary h1,
-.tm-block-tertiary h2,
-.tm-block-tertiary h3,
-.tm-block-tertiary h4,
-.tm-block-tertiary h5,
-.tm-block-tertiary h6 {
-    color: #FFFFFF;
-}
-
-
 /* Team layout */
 
 .tm-two-team-layout .uk-grid{
