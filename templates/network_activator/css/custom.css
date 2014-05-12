@@ -75,3 +75,36 @@
 .footer-height li {
     line-height: 26px;
 }
+
+legend {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 22px;
+    font-size: 24px;
+    line-height: 44px;
+    color: #4b5f62;
+    border: 0;
+    border-bottom: none;
+}
+
+.uk-form legend:after {
+    display: block;
+    border-bottom: none;
+}
+
+.tm-button-success {
+    margin-top: 15px;
+    padding: 0px 30px;
+    min-width: 250px;
+    color: #FFFFFF;
+    background: #0f9fe2
+}
+
+.tm-button-features {
+    margin-top: 15px;
+    padding: 0px 30px;
+    min-width: 250px;
+    color: #FFFFFF;
+    background: #0a4d6e
+}
