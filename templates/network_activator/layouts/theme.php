@@ -60,14 +60,9 @@ include($this['path']->path('layouts:theme.config.php'));
 				<?php endif; ?>
 
 
-				<?php if ($this['widgets']->count('menu + menucustom')) : ?>
+				<?php if ($this['widgets']->count('menu')) : ?>
 				<div class="uk-navbar-nav uk-navbar-flip uk-hidden-small uk-hidden-medium">
-
-
                     <?php echo $this['widgets']->render('menu'); ?>
-                    <?php if ($this['widgets']->count('menucustom')) : ?>
-                        <?php echo $this['widgets']->render('menucustom'); ?>
-                    <?php endif; ?>
 				</div>
 				<?php endif; ?>
 
@@ -203,7 +198,6 @@ include($this['path']->path('layouts:theme.config.php'));
 
 				<?php
 					echo $this['widgets']->render('footer');
-					$this->output('warp_branding');
 					echo $this['widgets']->render('debug');
 				?>
 
