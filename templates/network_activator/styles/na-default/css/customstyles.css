@@ -90,18 +90,6 @@ h1, h2, h3, h4, h5, h6 {
     background: #10B700;
 }
 
-/* Panels */
-
-.uk-panel-title {
-    margin-top: 10px;
-    margin-bottom: 15px;
-    font-size: 26px;
-    line-height: 27px;
-    font-weight: 300;
-    text-transform: uppercase;
-    color: #238fe3;
-    text-align: center;
-}
 
 /* Menu Overrides */
 
@@ -185,4 +173,41 @@ h1, h2, h3, h4, h5, h6 {
 .tm-two-team-layout .uk-grid{
     width:70%;
     margin: 0px auto;
+}
+
+
+/* Feature panel custom */
+
+.features-panel {
+
+}
+
+.features-panel-title {
+    width: 90%;
+    margin: 0px auto;
+    text-align: left;
+    line-height: 22px;}
+
+.features-title-icon {
+    display: block;
+    font-size: 2.0em;
+    float: left;
+    vertical-align: middle;
+    text-align: right;
+    padding-top: 4px;
+    color:#fff;
+    padding-right: 5px;
+}
+
+.features-icon-button {
+    background: none;
+    width:35px;
+    height:35px;
+    color: #ffffff;
+    line-height: 32px;
+    border:2px solid #fff;
+}
+
+.features-title-text {
+    display: inline;
 }
