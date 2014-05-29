@@ -47,7 +47,7 @@
     opacity: 1;
 }
 .nn_tooltips.popover.top {
-    margin-bottom: 10px;
+    margin-bottom: -100px;
     margin-top: -6px;
 }
 .nn_tooltips.popover.right {
