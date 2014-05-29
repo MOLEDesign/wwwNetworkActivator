@@ -26,14 +26,14 @@
     -webkit-background-clip: padding-box;
     -moz-background-clip: padding;
     background-clip: padding-box;
-    border: 1px solid #ccc;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    border-radius: 6px;
-    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    border: none;
+    border: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
     white-space: normal;
 }
 .nn_tooltips.popover.fade {
@@ -54,23 +54,23 @@
     margin-left: 10px;
 }
 .nn_tooltips.popover.bottom {
-    margin-top: -142px;
+    margin-top: -141px;
 }
 .nn_tooltips.popover.left {
     margin-right: 10px;
     margin-left: -10px;
 }
 .nn_tooltips.popover .popover-title {
-    margin: 0;
-    padding: 8px 14px;
-    font-size: 14px;
-    font-weight: normal;
-    line-height: 18px;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0px auto;
+    padding: 5px;
+    line-height: 22px;
     background-color: #f7f7f7;
     border-bottom: 1px solid #ebebeb;
-    -webkit-border-radius: 5px 5px 0 0;
-    -moz-border-radius: 5px 5px 0 0;
-    border-radius: 5px 5px 0 0;
+    -webkit-border-radius: none !important;
+    -moz-border-radius: none !important;
+    border-radius: none !important;
 }
 .nn_tooltips.popover .popover-title:empty {
     display: none;
@@ -230,7 +230,19 @@ body > .nn_tooltips.popover.right .arrow:after {
     color: #999999;
 }
 
+/* Title styling */
 .popover-title {
     text-transform: none;
     text-align: center;
+    width: 170px;
+    border-radius: 0 !important;
 }
+
+/* Content styling */
+
+.nn_tooltips.popover .popover-content {
+    border: solid 1px #0f9fe2;
+    margin-top: -9px;
+    padding-top: 7px;
+}
+
