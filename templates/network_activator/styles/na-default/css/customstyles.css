@@ -85,6 +85,12 @@ h1, h2, h3, h4, h5, h6 {
 .tm-teaser {
     background-image: url("../../../../../images/modules/frontpage_banner/1920_city_backdrop_bubbles.jpg");
 }
+
+.tm-navbar-fixed .tm-teaser {
+    background-position: center 30%;
+    background-size: 2772px;
+}
+
 .tm-headerbar {
     background: #238fe3;
 }
@@ -145,6 +151,14 @@ h1, h2, h3, h4, h5, h6 {
 .tm-navbar-fixed .tm-headerbar-small .uk-navbar-brand img, .tm-navbar-fixed .tm-headerbar-small .uk-navbar-brand a {
     width: inherit;
     height: auto;
+}
+
+.tm-navbar-fixed .tm-headerbar {
+    height: 68px;
+}
+
+.tm-navbar-fixed .tm-headerbar + .tm-teaser {
+    padding-top: 55px;
 }
 
 /* Teaser Overrides */
@@ -226,11 +240,22 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Feature panel custom */
 
+.features-image {
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+.features-image-text {
+    text-align: left;
+    padding-top: 50px;
+}
+
 .features-panel-title {
     width: 90%;
     margin: 0px auto;
     text-align: left;
     line-height: 22px;
+    padding-bottom: 10px;
 }
 
 .features-title-icon {
@@ -255,4 +280,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .features-title-text {
     display: inline;
+}
+
+.features-text {
+    padding-right: 23px;
+    text-align: left;
 }
