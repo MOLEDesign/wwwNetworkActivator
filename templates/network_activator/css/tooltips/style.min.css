@@ -47,14 +47,14 @@
     opacity: 1;
 }
 .nn_tooltips.popover.top {
-    margin-bottom: -100px;
+    margin-bottom: 10px;
     margin-top: -6px;
 }
 .nn_tooltips.popover.right {
     margin-left: 10px;
 }
 .nn_tooltips.popover.bottom {
-    margin-top: 13px;
+    margin-top: -142px;
 }
 .nn_tooltips.popover.left {
     margin-right: 10px;
