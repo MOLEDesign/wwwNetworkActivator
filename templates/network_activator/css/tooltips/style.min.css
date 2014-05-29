@@ -229,3 +229,8 @@ body > .nn_tooltips.popover.right .arrow:after {
     background-color: #eeeeee;
     color: #999999;
 }
+
+.popover-title {
+    text-transform: none;
+    text-align: center;
+}
