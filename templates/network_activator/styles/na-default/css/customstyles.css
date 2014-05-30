@@ -324,6 +324,12 @@ h1, .uk-h1 {
     text-align: left;
 }
 
+.features-pointer {
+    position: absolute;
+    top: 67px;
+    right: 311px;
+}
+
 
 /* Panel Overrides */
 
@@ -357,4 +363,15 @@ h1, .uk-h1 {
 .bfElemWrap {
     margin-bottom: 14px;
     margin-top: 5px;
+}
+
+
+/* Footer styling */
+
+.footer-copywrite-text {
+    padding-top: 34px;
+}
+
+.footer-social-icon {
+    margin-left: 10px;
 }
