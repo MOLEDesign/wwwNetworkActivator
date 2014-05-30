@@ -1,0 +1,377 @@
+/* 	Template Coding Copyright (C) MOLEDesign,
+	Template Design Copywrite (C) Network Activator
+	WARP YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* ========================================================================
+   Use this file to add custom CSS easily
+ ========================================================================== */
+
+/*
+ * Visibility
+ * Avoids setting display to `block`
+ */
+/* Desktop and bigger */
+@media (min-width: 960px) {
+    .uk-visible-small {
+        display: none !important;
+    }
+    .uk-visible-medium {
+        display: none !important;
+    }
+    .uk-hidden-large {
+        display: none !important;
+    }
+}
+/* Only tablets portrait */
+@media (min-width: 768px) and (max-width: 959px) {
+    .uk-visible-small {
+        display: none !important;
+    }
+    .uk-visible-large {
+        display: none !important ;
+    }
+    .uk-hidden-medium {
+        display: none !important;
+    }
+}
+/* Phone landscape and smaller */
+@media (max-width: 767px) {
+    .uk-visible-medium {
+        display: none !important;
+    }
+    .uk-visible-large {
+        display: none !important;
+    }
+    .uk-hidden-small {
+        display: none !important;
+    }
+}
+
+
+/* Text Format Overrides */
+
+h1, h2, h3, h4, h5, h6 {
+    letter-spacing: 0;
+}
+
+h1, .uk-h1 {
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.uk-article-title {
+    font-size: 21px;
+    line-height: 25px;
+    font-weight: normal;
+    text-transform: none;
+}
+
+/* Teaser */
+
+.tm-teaser {
+    position: relative;
+    height: 665px;
+    overflow: hidden;
+}
+
+.tm-teaser {
+    background-position: 0 -140px;
+    background-size: 100% 740px;
+    color: #5b646b;
+}
+.tm-teaser h1,
+.tm-teaser h2,
+.tm-teaser h3,
+.tm-teaser h4,
+.tm-teaser h5,
+.tm-teaser h6 {
+    color: #243c4f;
+}
+.tm-teaser {
+    background-image: url("../../../../../images/modules/frontpage_banner/1920_city_backdrop_bubbles.jpg");
+}
+
+.tm-navbar-fixed .tm-teaser {
+    background-position: center 30%;
+    background-size: 2772px;
+}
+
+.tm-headerbar {
+    background: #238fe3;
+}
+.tm-headerbar-plain {
+    background: #238fe3;
+}
+.tm-headerbar-small {
+    background: #238fe3;
+}
+.tm-teaser-text-primary {
+    color: #000000;
+    text-transform: none;
+    letter-spacing: 0;
+    font-weight: 600;
+    font-size: 33pt;
+    line-height: 35pt;
+}
+.tm-teaser-text-secondary {
+    color: #5b646b;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+}
+.tm-button-teaser {
+    margin-top: 15px;
+    padding: 0px 30px;
+    min-width: 250px;
+    color: #238fe3;
+}
+.tm-button-teaser:hover,
+.tm-button-teaser:active,
+.tm-button-teaser:focus {
+    color: #238fe3;
+}
+
+/* Button Overrides */
+
+.tm-button-teaser {
+    margin-top: 15px;
+    padding: 0px 30px;
+    min-width: 250px;
+    color: #FFFFFF;
+    background: #10B700;
+}
+
+.tm-button-teaser {
+    margin-top: 15px;
+    padding: 0px 30px;
+    min-width: 250px;
+    color: #FFFFFF;
+    background: #10B700;
+}
+
+
+/* Menu Overrides */
+
+
+.tm-navbar-fixed .tm-headerbar-small .uk-navbar-brand img, .tm-navbar-fixed .tm-headerbar-small .uk-navbar-brand a {
+    width: inherit;
+    height: auto;
+}
+
+.tm-navbar-fixed .tm-headerbar {
+    height: 68px;
+}
+
+.tm-navbar-fixed .tm-headerbar + .tm-teaser {
+    padding-top: 55px;
+}
+
+.tm-navbar-fixed .tm-headerbar-small,
+.tm-navbar-fixed .tm-headerbar-small .uk-navbar-brand,
+.tm-navbar-fixed .tm-headerbar-small .uk-navbar-content,
+.tm-navbar-fixed .tm-headerbar-small .uk-navbar-toggle {
+    height: 68px;
+}
+.tm-navbar-fixed .tm-headerbar-small .uk-navbar-nav > li > a {
+    height: 68px;
+    line-height: 68px;
+}
+
+/* Teaser Overrides */
+
+
+.teaser-text-area {
+    padding-top: 78px;
+}
+
+@media (max-width: 480px) {
+    .teaser-text-area {
+        padding-top: 0px;
+    }
+
+}
+
+/* Widgetkit Overrides */
+
+.wk-slideshow-tabsbar .nav, .wk-slideshow-tabsbar .nav li, .wk-slideshow-tabsbar .nav span {
+    color: #000;
+}
+
+
+
+.wk-slideshow .next, .wk-slideshow .prev {
+    visibility: visible !important;
+}
+
+.wk-slideshow-tabsbar .slides-container {
+    border: none;
+    background: inherit;
+    border-radius: none;
+}
+
+.wk-slideshow-tabsbar .nav li {
+    border: none;
+}
+
+.wk-slideshow-tabsbar .nav-container {
+    border: none;
+    background: inherit;
+    border-radius: none;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+.wk-slideshow-tabsbar .nav-container {
+    width: 100%;
+    margin-left: 30%;
+}
+
+.wk-slideshow-tabsbar .nav span {
+    border-right: none;
+}
+
+.wk-slideshow-tabsbar .nav li.active {
+    padding-bottom: 1px;
+    background: none;
+    border: solid 1px #fff;
+    border-radius: 4px;
+}
+
+.wk-slideshow-tabsbar .nav li.active span {
+    color: #ffffff;
+}
+
+.wk-slideshow-tabsbar .nav li:hover{
+    background:none;
+}
+
+
+/* Team layout */
+
+.tm-two-team-layout .uk-grid{
+    width:70%;
+    margin: 0px auto;
+}
+
+/* How it works */
+
+.how-it-works-line {
+    padding: 5px 0;
+}
+
+.how-it-works-title {
+    font-size: 1.8em;
+    line-height: 1.2em;
+}
+
+.how-it-works-text {
+    font-weight: normal;
+    font-size: 1.2em;
+}
+
+
+/* Feature panel custom */
+
+.features-container {
+    height: 1750px;
+    position: relative;
+}
+
+.features-image {
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+.features-image-text {
+    text-align: left;
+    padding-top: 50px;
+}
+
+.features-panel-title {
+    width: 90%;
+    margin: 0px auto;
+    text-align: left;
+    line-height: 22px;
+    padding-bottom: 10px;
+}
+
+.features-title-icon {
+    display: block;
+    font-size: 2.0em;
+    float: left;
+    vertical-align: middle;
+    text-align: right;
+    padding-top: 4px;
+    color:#fff;
+    padding-right: 5px;
+}
+
+.features-icon-button {
+    background: none;
+    width:35px;
+    height:35px;
+    color: #ffffff;
+    line-height: 32px;
+    border:2px solid #fff;
+}
+
+.features-title-text {
+    display: inline;
+}
+
+.features-text {
+    padding-right: 23px;
+    text-align: left;
+}
+
+.features-pointer {
+    position: absolute;
+    top: 67px;
+    right: 311px;
+}
+
+
+/* Panel Overrides */
+
+.tm-block-padding-top-bottom {
+    padding: 30px 0;
+}
+
+
+/* Breezing Forms */
+
+.footer-form-title {
+    padding-bottom: 5px;
+}
+
+.bfSubmitButton {
+    width: 100%;
+    color: #FFF;
+    background: #238FE3;
+    padding: 11px;
+    border: 0px;
+}
+
+.form-actions {
+    padding: 0;
+}
+
+.form-actions .pull-right {
+    float:inherit;
+}
+
+.bfElemWrap {
+    margin-bottom: 14px;
+    margin-top: 5px;
+}
+
+
+/* Footer styling */
+
+.footer-copywrite-text {
+    padding-top: 34px;
+}
+
+.footer-social-icon {
+    margin-left: 10px;
+}
