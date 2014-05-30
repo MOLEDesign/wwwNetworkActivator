@@ -70,7 +70,7 @@ h1, .uk-h1 {
 
 .tm-teaser {
     position: relative;
-    height: 665px;
+    height: 304px;
     overflow: hidden;
 }
 
@@ -88,12 +88,12 @@ h1, .uk-h1 {
     color: #243c4f;
 }
 .tm-teaser {
-    background-image: url("../../../../../images/modules/frontpage_banner/1920_city_backdrop_bubbles.jpg");
+    background-image: url("../../../../../images/modules/page_banners/banner_team.jpg");
 }
 
 .tm-navbar-fixed .tm-teaser {
     background-position: center 30%;
-    background-size: 2772px;
+    background-size: 1980px;
 }
 
 .tm-headerbar {
@@ -163,7 +163,7 @@ h1, .uk-h1 {
 }
 
 .tm-navbar-fixed .tm-headerbar + .tm-teaser {
-    padding-top: 55px;
+    padding-top: 95px;
 }
 
 .tm-navbar-fixed .tm-headerbar-small,
