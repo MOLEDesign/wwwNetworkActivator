@@ -184,13 +184,6 @@ h1, .uk-h1 {
     padding-top: 78px;
 }
 
-@media (max-width: 480px) {
-    .teaser-text-area {
-        padding-top: 0px;
-    }
-
-}
-
 /* Widgetkit Overrides */
 
 .wk-slideshow-tabsbar .nav, .wk-slideshow-tabsbar .nav li, .wk-slideshow-tabsbar .nav span {
@@ -374,4 +367,17 @@ h1, .uk-h1 {
 
 .footer-social-icon {
     margin-left: 10px;
+}
+
+
+@media (max-width: 480px) {
+    .teaser-text-area {
+        padding-top: 50px;
+    }
+
+    .tm-teaser {
+        position: relative;
+        height: 210px;
+        overflow: hidden;
+    }
 }
