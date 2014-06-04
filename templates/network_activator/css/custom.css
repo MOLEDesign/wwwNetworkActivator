@@ -170,7 +170,7 @@ legend {
 .tm-button-success {
     margin-top: 15px;
     padding: 0px 30px;
-    min-width: 250px;
+    min-width: 165px;
     color: #FFFFFF;
     background: #0f9fe2
 }
@@ -178,7 +178,7 @@ legend {
 .tm-button-features {
     margin-top: 15px;
     padding: 0px 30px;
-    min-width: 250px;
+    min-width: 165px;
     color: #FFFFFF;
     background: #0a4d6e
 }
@@ -204,4 +204,40 @@ h6 {
     font-family: 'Open Sans';
     font-weight: lighter;
     text-transform: uppercase;
+}
+
+
+/* Button global ovverrides */
+
+.uk-button {
+    border-radius: 0;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+
+/* Menu global overides */
+
+.uk-navbar-nav > li {
+    margin: 0 22px;
+}
+
+.uk-navbar-nav > li > a {
+    font-size: 17px;
+    font-weight: 300;
+}
+
+/* Blog layout */
+@media (min-width: 960px) {
+
+
+    .uk-article a img {
+        padding-bottom: 20px;
+    }
+}
+
+.article-read-more {
+    color: #000000;
 }

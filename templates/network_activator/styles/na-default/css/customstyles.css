@@ -136,15 +136,7 @@ h1, .uk-h1 {
 .tm-button-teaser {
     margin-top: 15px;
     padding: 0px 30px;
-    min-width: 250px;
-    color: #FFFFFF;
-    background: #10B700;
-}
-
-.tm-button-teaser {
-    margin-top: 15px;
-    padding: 0px 30px;
-    min-width: 250px;
+    min-width: 165px;
     color: #FFFFFF;
     background: #10B700;
 }
@@ -240,7 +232,7 @@ h1, .uk-h1 {
 .wk-slideshow-tabsbar .nav li.active {
     padding-bottom: 1px;
     background: none;
-    border: solid 1px #fff;
+    border: solid 2px #fff;
     border-radius: 4px;
 }
 
@@ -264,16 +256,19 @@ h1, .uk-h1 {
 
 .how-it-works-line {
     padding: 5px 0;
+    color: #2b6c76;
 }
 
 .how-it-works-title {
     font-size: 1.8em;
     line-height: 1.2em;
+    color: #2b6c76;
 }
 
 .how-it-works-text {
     font-weight: normal;
     font-size: 1.2em;
+    color: #2b6c76;
 }
 
 
@@ -296,10 +291,10 @@ h1, .uk-h1 {
 
 .features-panel-title {
     width: 90%;
-    margin: 0px auto;
     text-align: left;
     line-height: 22px;
     padding-bottom: 10px;
+    font-weight: normal;
 }
 
 .features-title-icon {
@@ -311,6 +306,7 @@ h1, .uk-h1 {
     padding-top: 4px;
     color:#fff;
     padding-right: 5px;
+    font-weight: normal;
 }
 
 .features-icon-button {
