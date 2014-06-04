@@ -191,7 +191,7 @@
 
 	<?php if ($more) : ?>
 	<p>
-		<a class="article-read-more" href="<?php echo $url; ?>" title="<?php echo $title; ?>"><?php echo $more; ?></a>
+		<a class="article-read-more" href="<?php echo $url; ?>" title="<?php echo $title; ?>">Learn More ></a>
 	</p>
 	<?php endif; ?>
 

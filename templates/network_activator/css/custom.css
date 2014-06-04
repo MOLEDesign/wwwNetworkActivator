@@ -8,6 +8,10 @@
 
 /* GLobal Team Code */
 
+.tm-two-team-layout {
+    padding-top: 140px;
+}
+
 .team-image {
     border: solid 3px white;
 }
@@ -89,6 +93,10 @@
 
 .team-title:hover .team-overlay{
     display:block;
+}
+
+.arrow {
+    display: none !important;
 }
 
 
@@ -240,4 +248,6 @@ h6 {
 
 .article-read-more {
     color: #000000;
+    font-weight: bold;
+    font-size: 0.8em;
 }
