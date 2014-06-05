@@ -251,3 +251,11 @@ h6 {
     font-weight: bold;
     font-size: 0.8em;
 }
+
+/* Icons */
+
+.features_icon {
+    background-image: url('/../../../../../images/site_graphics/icons/features_icons.png');
+    width:39px;
+    height: 39px;
+}
