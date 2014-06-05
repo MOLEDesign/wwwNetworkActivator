@@ -6,6 +6,12 @@
    Use this file to add custom CSS easily
  ========================================================================== */
 
+/* Preload images */
+body:after{
+    display:none;
+    content: url('../../../images/site_graphics/icons/feature_icons.png') url('../../../images/modules/how_it_works/step_4_b.gif');
+}
+
 /* GLobal Team Code */
 
 .tm-two-team-layout {
@@ -255,7 +261,12 @@ h6 {
 /* Icons */
 
 .features_icon {
-    background-image: url('/../../../../../images/site_graphics/icons/features_icons.png');
-    width:39px;
+    background-image: url('../../../images/site_graphics/icons/feature_icons.png');
+    background-repeat: no-repeat;
+    width: 39px;
     height: 39px;
+}
+
+.features_icon_eng_acc {
+    background-position: 1px 1px;
 }
