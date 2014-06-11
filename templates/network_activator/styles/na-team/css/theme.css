@@ -6278,7 +6278,7 @@ a.uk-thumbnail:focus {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   max-width: 980px;
-  padding: 0 25px;
+  padding: 0 10px;
 }
 /* Large screen and bigger */
 @media (min-width: 1220px) {
