@@ -263,10 +263,39 @@ h6 {
 .features_icon {
     background-image: url('../../../images/site_graphics/icons/feature_icons.png');
     background-repeat: no-repeat;
-    width: 39px;
-    height: 39px;
+    width: 38px;
+    height: 34px;
 }
 
 .features_icon_eng_acc {
-    background-position: 1px 1px;
+    background-position: -2px -5px;
 }
+
+.features_icon_zer_int {
+    background-position: -2px -73px;
+}
+
+.features_icon_per_wiz {
+    background-position: -2px -146px;
+}
+
+.features_icon_uni_ext {
+    background-position: -2px -217px;
+}
+
+.features_icon_act_rep {
+    background-position: -2px -5px;
+}
+
+.features_icon_ten_man {
+    background-position: -2px -73px;
+}
+
+.features_icon_tea_per {
+    background-position: -2px -146px;
+}
+
+.features_icon_com_suc {
+    background-position: -2px -217px;
+}
+
