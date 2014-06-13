@@ -76,7 +76,7 @@ if (in_array($widget->position, array('top-teaser', 'breadcrumbs', 'logo', 'logo
 		echo '
 		<ul class="uk-navbar-nav uk-hidden-small">
 			<li class="uk-parent" data-uk-dropdown>
-				<a href="#">'.$title.'</a>
+				<a href="#"><div class="nav-item">'.$title.'</div></a>
 				<div class="uk-dropdown uk-dropdown-navbar">'.$content.'</div>
 			</li>
 		</ul>';
