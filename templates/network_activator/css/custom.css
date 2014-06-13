@@ -271,11 +271,11 @@ h6 {
     background-position: -2px -5px;
 }
 
-.features_icon_zer_int {
+.features_icon_per_wiz {
     background-position: -2px -73px;
 }
 
-.features_icon_per_wiz {
+.features_icon_zer_int {
     background-position: -2px -146px;
 }
 
@@ -283,19 +283,55 @@ h6 {
     background-position: -2px -217px;
 }
 
+
+
 .features_icon_act_rep {
-    background-position: -2px -5px;
+    background-position: -179px -5px;
 }
 
-.features_icon_ten_man {
-    background-position: -2px -73px;
+.features_icon_tem_gro {
+    background-position: -179px -73px;
 }
 
 .features_icon_tea_per {
-    background-position: -2px -146px;
+    background-position: -179px -146px;
 }
 
 .features_icon_com_suc {
-    background-position: -2px -217px;
+    background-position: -179px -217px;
 }
 
+
+
+.features_icon_rea_tim {
+    background-position: -392px -5px;
+}
+
+.features_com_suc_p {
+    background-position: -392px -73px;
+}
+
+.features_icon_com_vol {
+    background-position: -392px -146px;
+}
+
+.features_icon_sup {
+    background-position: -392px -217px;
+}
+
+
+.features_icon_urg_esc {
+    background-position: -582px -5px;
+}
+
+.features_icon_hot_top {
+    background-position: -582px -73px;
+}
+
+.features_icon_soc_mid {
+    background-position: -582px -146px;
+}
+
+.features_icon_act_str {
+    background-position: -582px -217px;
+}
