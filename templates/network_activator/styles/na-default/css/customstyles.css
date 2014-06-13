@@ -272,68 +272,6 @@ h1, .uk-h1 {
 }
 
 
-/* Feature panel custom */
-
-.features-container {
-    height: 1750px;
-    position: relative;
-}
-
-.features-image {
-    padding-bottom: 50px;
-    padding-top: 20px;
-}
-
-.features-image-text {
-    text-align: left;
-    padding-top: 50px;
-}
-
-.features-panel-title {
-    width: 90%;
-    text-align: left;
-    line-height: 22px;
-    padding-bottom: 10px;
-    font-weight: normal;
-}
-
-.features-title-icon {
-    display: block;
-    font-size: 2.0em;
-    float: left;
-    vertical-align: middle;
-    text-align: right;
-    padding-top: 4px;
-    color:#fff;
-    padding-right: 5px;
-    font-weight: normal;
-}
-
-.features-icon-button {
-    background: none;
-    width:35px;
-    height:35px;
-    color: #ffffff;
-    line-height: 32px;
-    border:2px solid #fff;
-}
-
-.features-title-text {
-    display: inline;
-}
-
-.features-text {
-    padding-right: 23px;
-    text-align: left;
-}
-
-.features-pointer {
-    position: absolute;
-    top: 67px;
-    right: 311px;
-}
-
-
 /* Panel Overrides */
 
 .tm-block-padding-top-bottom {
