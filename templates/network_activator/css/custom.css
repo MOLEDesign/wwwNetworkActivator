@@ -266,9 +266,13 @@ h6 {
 }
 
 .tm-navbar-fixed .tm-headerbar-small .uk-navbar-nav > li > a {
-    height: 30px;
+    height: 32px;
     line-height: 30px;
-    padding: 3px;
+    border: 1px solid #298fe2;
+    border-radius: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #FFF;
     margin-top: 18px;
 }
 
@@ -277,7 +281,8 @@ h6 {
     line-height: 30px;
     border: 1px solid #fff;
     border-radius: 2px;
-    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
     color: #FFF;
 }
 
