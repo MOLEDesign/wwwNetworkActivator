@@ -480,3 +480,23 @@ h6 {
     width: 200px;
     text-transform: uppercase;
 }
+
+/* Testimonials */
+
+.testimonials-quote {
+    font-size:22px;
+    color: #474d51;
+    padding-bottom: 10px;
+}
+
+.testimonials-person {
+    color: #767676;
+    font-weight: bold;
+}
+
+
+.testimonials-company {
+    font-family: 'Open Sans';
+    font-weight: lighter;
+    color: #a2a4a8;
+}
