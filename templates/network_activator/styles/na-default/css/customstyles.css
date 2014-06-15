@@ -74,11 +74,6 @@ h1, .uk-h1 {
     overflow: hidden;
 }
 
-.tm-teaser {
-    background-position: 0 -140px;
-    background-size: 100% 740px;
-    color: #5b646b;
-}
 .tm-teaser h1,
 .tm-teaser h2,
 .tm-teaser h3,
@@ -92,8 +87,9 @@ h1, .uk-h1 {
 }
 
 .tm-navbar-fixed .tm-teaser {
-    background-position: center 30%;
-    background-size: 2772px;
+    background-position: center 100%;
+    background-size: 1980px;
+    color: #5b646b;
 }
 
 .tm-headerbar {
