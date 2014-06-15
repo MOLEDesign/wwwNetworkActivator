@@ -77,7 +77,7 @@ if ($params->get('show_readmore') && $this->item->readmore) {
 	} elseif ($readmore = $this->item->alternative_readmore) {
 		$args['more'] = $readmore;
 	} else {
-		$args['more'] = JText::_('TPL_WARP_CONTINUE_READING');
+		$args['more'] = '<div class="knowledge-read-more">' . JText::_('TPL_WARP_CONTINUE_READING') . '</div>';
 	}
 }
 

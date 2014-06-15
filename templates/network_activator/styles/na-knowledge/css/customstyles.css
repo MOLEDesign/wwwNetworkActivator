@@ -89,6 +89,7 @@ h1, .uk-h1 {
 }
 .tm-teaser {
     background-image: none;
+    background-color: #fff;
 }
 
 .tm-navbar-fixed .tm-teaser {

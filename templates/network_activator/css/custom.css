@@ -291,6 +291,17 @@ h6 {
     }
 }
 
+@media (min-width: 768px) {
+    .uk-width-medium-1-2, .uk-width-medium-2-4, .uk-width-medium-3-6, .uk-width-medium-5-10 {
+        width: 50%;
+        padding-right: 50px;
+    }
+
+    .uk-width-medium-1-2 .uk-article {
+        height: 400px;
+    }
+}
+
 .article-read-more {
     color: #000000;
     font-weight: bold;
@@ -455,6 +466,33 @@ h6 {
     margin-left: 10px;
 }
 
+/* Breezing Forms */
+
+.footer-form-title {
+    padding-bottom: 5px;
+}
+
+.bfSubmitButton {
+    width: 100%;
+    color: #FFF;
+    background: #238FE3;
+    padding: 11px;
+    border: 0px;
+}
+
+.form-actions {
+    padding: 0;
+}
+
+.form-actions .pull-right {
+    float:inherit;
+}
+
+.bfElemWrap {
+    margin-bottom: 14px;
+    margin-top: 5px;
+}
+
 /* Hashtags */
 
 .label, .badge {
@@ -499,4 +537,16 @@ h6 {
     font-family: 'Open Sans';
     font-weight: lighter;
     color: #a2a4a8;
+}
+
+/* Articles */
+
+.knowledge-read-more {
+    float: right;
+}
+
+/* Modukle padding */
+
+.tm-block-padding-top {
+    padding-top: 40px;
 }

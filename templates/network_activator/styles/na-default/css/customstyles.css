@@ -256,29 +256,3 @@ h1, .uk-h1 {
 }
 
 
-/* Breezing Forms */
-
-.footer-form-title {
-    padding-bottom: 5px;
-}
-
-.bfSubmitButton {
-    width: 100%;
-    color: #FFF;
-    background: #238FE3;
-    padding: 11px;
-    border: 0px;
-}
-
-.form-actions {
-    padding: 0;
-}
-
-.form-actions .pull-right {
-    float:inherit;
-}
-
-.bfElemWrap {
-    margin-bottom: 14px;
-    margin-top: 5px;
-}
