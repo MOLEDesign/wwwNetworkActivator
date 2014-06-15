@@ -149,34 +149,6 @@ h1, .uk-h1 {
     background: #10B700;
 }
 
-
-/* Menu Overrides */
-
-
-.tm-navbar-fixed .tm-headerbar-small .uk-navbar-brand img, .tm-navbar-fixed .tm-headerbar-small .uk-navbar-brand a {
-    width: inherit;
-    height: auto;
-}
-
-.tm-navbar-fixed .tm-headerbar {
-    height: 68px;
-}
-
-.tm-navbar-fixed .tm-headerbar + .tm-teaser {
-    padding-top: 55px;
-}
-
-.tm-navbar-fixed .tm-headerbar-small,
-.tm-navbar-fixed .tm-headerbar-small .uk-navbar-brand,
-.tm-navbar-fixed .tm-headerbar-small .uk-navbar-content,
-.tm-navbar-fixed .tm-headerbar-small .uk-navbar-toggle {
-    height: 68px;
-}
-.tm-navbar-fixed .tm-headerbar-small .uk-navbar-nav > li > a {
-    height: 68px;
-    line-height: 68px;
-}
-
 /* Teaser Overrides */
 
 
