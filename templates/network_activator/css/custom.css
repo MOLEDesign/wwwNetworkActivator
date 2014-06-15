@@ -153,15 +153,11 @@ body:after{
     color: #0f9fe2;
     font-size: 23px;
     text-align: center;
-    border: solid 2px #ffffff;
+    border: solid 1px #ffffff;
 }
 
 .social-padding {
     padding-top: 30px;
-}
-
-.footer-height li {
-    line-height: 26px;
 }
 
 legend {
@@ -266,24 +262,25 @@ h6 {
 }
 
 .tm-navbar-fixed .tm-headerbar-small .uk-navbar-nav > li > a {
-    height: 32px;
-    line-height: 30px;
-    border: 1px solid #298fe2;
-    border-radius: 2px;
+    height: 38px;
+    line-height: 35px;
+    border: 1px solid #238fe2;
+    border-radius: 7px;
     padding-left: 5px;
     padding-right: 5px;
     color: #FFF;
-    margin-top: 18px;
+    margin-top: 14px;
 }
 
 .tm-navbar-fixed .tm-headerbar-small .uk-navbar-nav > li > a:hover {
-    height: 32px;
-    line-height: 30px;
-    border: 1px solid #fff;
-    border-radius: 2px;
+    height: 38px;
+    line-height: 35px;
+    border: 1px solid #FFF;
+    border-radius: 7px;
     padding-left: 5px;
     padding-right: 5px;
     color: #FFF;
+    background-color: #52a6e9;
 }
 
 /* Blog layout */
@@ -446,4 +443,19 @@ h6 {
 
 .features_icon_act_str {
     background-position: -584px -217px;
+}
+
+/* Footer */
+
+.footer-height li {
+    line-height: 26px;
+}
+
+.footer-copywrite-text {
+    padding-top: 34px;
+    opacity: 0.3;
+}
+
+.footer-social-icon {
+    margin-left: 10px;
 }
