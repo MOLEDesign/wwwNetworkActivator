@@ -473,7 +473,7 @@ pre,
 address,
 fieldset,
 figure {
-  margin: 0 0 15px 0;
+  margin: 0 0 0 0;
 }
 /*
  * Don't worry about the universal selector.
@@ -489,7 +489,7 @@ figure {
 * + address,
 * + fieldset,
 * + figure {
-  margin-top: 15px;
+  margin-top: 0;
 }
 /* Headings
  ========================================================================== */
@@ -499,9 +499,9 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0 0 15px 0;
+  margin: 0 0 0 0;
   font-family: 'Open Sans';
-  font-weight: lighter;
+  font-weight: normal;
   color: #454545;
   text-transform: uppercase;
 }
@@ -515,7 +515,7 @@ h6 {
 * + h4,
 * + h5,
 * + h6 {
-  margin-top: 25px;
+  margin-top: 0;
 }
 h1,
 .uk-h1 {
@@ -682,7 +682,7 @@ h6 {
  */
 .uk-grid {
   /* 1 */
-  margin: 0 0 0 -25px;
+  margin: 0 0 0 -10px;
   /* 2 */
   padding: 0;
   list-style: none;
@@ -697,7 +697,7 @@ h6 {
   /* 1 */
   margin: 0;
   /* 2 */
-  padding-left: 25px;
+  padding-left: 10px;
   /* 3 */
   float: left;
 }
@@ -713,43 +713,43 @@ h6 {
  * Vertical gutter
  */
 .uk-grid + .uk-grid {
-  margin-top: 25px;
+  margin-top: 10px;
 }
 /*
  * This class is set by JavaScript and applies a vertical gutter if the columns stack or float into the next row
  * Higher specificity to override margin
  */
 .uk-grid > .uk-grid-margin {
-  margin-top: 0px;
+  margin-top: 10px;
 }
 /*
  * Vertical gutter for panels
  */
 .uk-grid > * > .uk-panel + .uk-panel {
-  margin-top: 25px;
+  margin-top: 10px;
 }
 /*
  * Larger gutter for large screens
  */
 /* Large screen and bigger */
-@media (min-width: 1220px) {
+@media (min-width: 960px) {
   /* Horizontal gutter */
   .uk-grid:not(.uk-grid-preserve) {
-    margin-left: -35px;
+    margin-left: -10px;
   }
   .uk-grid:not(.uk-grid-preserve) > * {
-    padding-left: 35px;
+    padding-left: 10px;
   }
   /* Vertical gutter */
   .uk-grid:not(.uk-grid-preserve) + .uk-grid {
-    margin-top: 35px;
+    margin-top: 10px;
   }
   .uk-grid:not(.uk-grid-preserve) > .uk-grid-margin {
-    margin-top: 35px;
+    margin-top: 10px;
   }
   /* Vertical gutter for panels */
   .uk-grid:not(.uk-grid-preserve) > * > .uk-panel + .uk-panel {
-    margin-top: 35px;
+    margin-top: 10px;
   }
 }
 /*
@@ -778,12 +778,12 @@ h6 {
  * Does not work with `uk-push-*`, `uk-pull-*` and not if the columns float into the next row
  */
 .uk-grid-divider:not(:empty) {
-  margin-left: -25px;
-  margin-right: -25px;
+  margin-left: -10px;
+  margin-right: -10px;
 }
 .uk-grid-divider > * {
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .uk-grid-divider > [class*='uk-width-1-']:not(.uk-width-1-1):nth-child(n+2),
 .uk-grid-divider > [class*='uk-width-2-']:nth-child(n+2),
@@ -809,29 +809,29 @@ h6 {
   }
 }
 /* Large screen and bigger */
-@media (min-width: 1220px) {
+@media (min-width: 960px) {
   /*
      * Large gutter
      */
   .uk-grid-divider:not(.uk-grid-preserve):not(:empty) {
-    margin-left: -35px;
-    margin-right: -35px;
+    margin-left: -10px;
+    margin-right: -10px;
   }
   .uk-grid-divider:not(.uk-grid-preserve) > * {
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .uk-grid-divider:not(.uk-grid-preserve):empty {
-    margin-top: 35px;
-    margin-bottom: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }
 /*
  * Vertical divider
  */
 .uk-grid-divider:empty {
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   border-top: 1px solid #dddddd;
 }
 /* Even grid cell widths
@@ -923,7 +923,7 @@ h6 {
   }
 }
 /* Large screen and bigger */
-@media (min-width: 1220px) {
+@media (min-width: 960px) {
   .uk-grid-width-xlarge-1-2 > * {
     width: 50%;
   }
@@ -1391,7 +1391,7 @@ h6 {
  ========================================================================== */
 .uk-panel-title {
   margin-top: 0;
-  margin-bottom: 15px;
+  margin-bottom: 0;
   font-size: 18px;
   line-height: 27px;
   font-weight: 300;
@@ -1413,7 +1413,7 @@ h6 {
 /* Modifier: `uk-panel-box`
  ========================================================================== */
 .uk-panel-box {
-  padding: 30px;
+  padding: 0;
   background: #ffffff;
   color: #919191;
   border: 1px solid #dddddd;
@@ -1426,13 +1426,13 @@ h6 {
   right: 10px;
 }
 .uk-panel-box .uk-panel-teaser {
-  margin: -30px -30px 15px -30px;
+  margin: 0 0 0 0;
 }
 /*
  * Nav in panel
  */
 .uk-panel-box > .uk-nav-side {
-  margin: 0 -30px;
+  margin: 0 0;
 }
 /*
  * Sub-modifier: `uk-panel-box-primary`
@@ -1487,24 +1487,24 @@ h6 {
 /* Modifier: `uk-panel-divider`
  ========================================================================== */
 .uk-panel + .uk-panel-divider {
-  margin-top: 50px !important;
+  margin-top: 20px !important;
 }
 .uk-panel + .uk-panel-divider:before {
   content: "";
   display: block;
   position: absolute;
-  top: -25px;
+  top: -10px;
   left: 0;
   right: 0;
   border-top: 1px solid #dddddd;
 }
 /* Large screen and bigger */
-@media (min-width: 1220px) {
+@media (min-width: 960px) {
   .uk-panel + .uk-panel-divider {
-    margin-top: 70px !important;
+    margin-top: 20px !important;
   }
   .uk-panel + .uk-panel-divider:before {
-    top: -35px;
+    top: -10px;
   }
 }
 .uk-panel .uk-nav {
@@ -1550,7 +1550,7 @@ h6 {
  * Vertical gutter for articles
  */
 .uk-article + .uk-article {
-  margin-top: 15px;
+  margin-top: 0;
 }
 /* Sub-object `uk-article-title`
  ========================================================================== */
@@ -1582,11 +1582,11 @@ h6 {
 /* Sub-object `uk-article-divider`
  ========================================================================== */
 .uk-article-divider {
-  margin-bottom: 25px;
+  margin-bottom: 0;
   border-color: #dddddd;
 }
 * + .uk-article-divider {
-  margin-top: 25px;
+  margin-top: 0;
 }
 /* ========================================================================
    Component: Comment
@@ -1594,7 +1594,7 @@ h6 {
 /* Sub-object `uk-comment-header`
  ========================================================================== */
 .uk-comment-header {
-  margin-bottom: 15px;
+  margin-bottom: 0;
 }
 /*
  * Micro clearfix
@@ -1610,7 +1610,7 @@ h6 {
 /* Sub-object `uk-comment-avatar`
  ========================================================================== */
 .uk-comment-avatar {
-  margin-right: 15px;
+  margin-right: 0;
   float: left;
   border-radius: 100%;
 }
@@ -1645,12 +1645,12 @@ h6 {
   list-style: none;
 }
 .uk-comment-list .uk-comment + ul {
-  margin: 15px 0 0 0;
+  margin: 0 0 0 0;
   list-style: none;
 }
 .uk-comment-list > li:nth-child(n+2),
 .uk-comment-list .uk-comment + ul > li:nth-child(n+2) {
-  margin-top: 15px;
+  margin-top: 0;
 }
 /* Tablet and bigger */
 @media (min-width: 768px) {
@@ -1710,7 +1710,7 @@ h6 {
   letter-spacing: 0.1em;
 }
 .uk-nav-header:not(:first-child) {
-  margin-top: 15px;
+  margin-top: 0;
 }
 /* Sub-object: `uk-nav-divider`
  ========================================================================== */
@@ -1979,7 +1979,7 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
   color: #ffffff;
   font-size: 18px;
   font-family: 'Open Sans';
-  font-weight: inherit;
+  font-weight: normal;
 }
 /* Appear not as link */
 .uk-navbar-nav > li > a[href='#'] {
@@ -2264,7 +2264,7 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
   content: "\f105";
   display: inline-block;
   margin: 0 15px;
-  font-family: 'FontAwesome';
+  font-family: 'Open Sans';
 }
 /*
  * Disabled
@@ -2796,13 +2796,13 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
  */
 .uk-table {
   width: 100%;
-  margin-bottom: 15px;
+  margin-bottom: 0;
 }
 /*
  * Add margin if adjacent element
  */
 * + .uk-table {
-  margin-top: 15px;
+  margin-top: 0;
 }
 .uk-table th,
 .uk-table td {
@@ -3003,7 +3003,7 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 .uk-form legend {
   width: 100%;
   /* 1 */
-  padding-bottom: 15px;
+  padding-bottom: 0;
   /* 2 */
   font-size: 19px;
   line-height: 32px;
@@ -3114,7 +3114,7 @@ select.uk-form-width-mini {
  * Vertical gutter
  */
 .uk-form-row + .uk-form-row {
-  margin-top: 15px;
+  margin-top: 0;
 }
 /* Help text
  * Sub-object: `uk-form-help-inline`, `uk-form-help-block`
@@ -3226,7 +3226,6 @@ select.uk-form-width-mini {
   vertical-align: middle;
   text-decoration: none;
   text-align: center;
-    text-transform: uppercase;
   /* 2 */
   border: none;
   /* 3 */
@@ -4805,7 +4804,7 @@ select.uk-form-width-mini {
    Component: Alert
  ========================================================================== */
 .uk-alert {
-  margin-bottom: 15px;
+  margin-bottom: 0;
   padding: 15px;
   background: #238fe3;
   color: #ffffff;
@@ -4815,7 +4814,7 @@ select.uk-form-width-mini {
  * Add margin if adjacent element
  */
 * + .uk-alert {
-  margin-top: 15px;
+  margin-top: 0;
 }
 /*
  * Remove margin from the last-child
@@ -5083,7 +5082,7 @@ a.uk-thumbnail:focus {
   left: 0;
   right: 0;
   /* 2 */
-  padding: 15px;
+  padding: 0;
   background: rgba(35, 143, 227, 0.5);
   color: #ffffff;
   /* 3 */
@@ -5128,7 +5127,7 @@ a.uk-thumbnail:focus {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   height: 25px;
-  margin-bottom: 15px;
+  margin-bottom: 0;
   background: rgba(128, 128, 128, 0.1);
   /* 1 */
   overflow: hidden;
@@ -5139,7 +5138,7 @@ a.uk-thumbnail:focus {
  * Add margin if adjacent element
  */
 * + .uk-progress {
-  margin-top: 15px;
+  margin-top: 0;
 }
 /* Sub-object: `uk-progress-bar`
  ========================================================================== */
@@ -5926,7 +5925,7 @@ a.uk-thumbnail:focus {
   }
 }
 /* Large screen and bigger */
-@media (min-width: 1220px) {
+@media (min-width: 960px) {
   .uk-modal-dialog-large {
     width: 1130px;
   }
@@ -6278,13 +6277,13 @@ a.uk-thumbnail:focus {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   max-width: 980px;
-  padding: 0 25px;
+  padding: 0 10px;
 }
 /* Large screen and bigger */
-@media (min-width: 1220px) {
+@media (min-width: 960px) {
   .uk-container {
-    max-width: 1200px;
-    padding: 0 35px;
+    max-width: 980px;
+    padding: 0 10px;
   }
 }
 /*
@@ -6351,26 +6350,26 @@ a.uk-thumbnail:focus {
  */
 [class*='uk-align-'] {
   display: block;
-  margin-bottom: 15px;
+  margin-bottom: 0;
 }
 .uk-align-left {
-  margin-right: 15px;
+  margin-right: 0;
   float: left;
 }
 .uk-align-right {
-  margin-left: 15px;
+  margin-left: 0;
   float: right;
 }
 /* Tablet and bigger */
 @media (min-width: 768px) {
   .uk-align-medium-left {
-    margin-right: 15px;
-    margin-bottom: 15px;
+    margin-right: 0;
+    margin-bottom: 0;
     float: left;
   }
   .uk-align-medium-right {
-    margin-left: 15px;
-    margin-bottom: 15px;
+    margin-left: 0;
+    margin-bottom: 0;
     float: right;
   }
 }
@@ -6451,22 +6450,22 @@ a.uk-thumbnail:focus {
  * Add margin if adjacent element
  */
 .uk-margin {
-  margin-bottom: 15px;
+  margin-bottom: 0;
 }
 * + .uk-margin {
-  margin-top: 15px;
+  margin-top: 0;
 }
 .uk-margin-top {
-  margin-top: 15px !important;
+  margin-top: 0 !important;
 }
 .uk-margin-bottom {
-  margin-bottom: 15px !important;
+  margin-bottom: 0 !important;
 }
 .uk-margin-left {
-  margin-left: 15px !important;
+  margin-left: 0 !important;
 }
 .uk-margin-right {
-  margin-right: 15px !important;
+  margin-right: 0 !important;
 }
 /*
  * Larger margins
@@ -6580,7 +6579,7 @@ a.uk-thumbnail:focus {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   height: 170px;
-  padding: 10px;
+  padding: 0;
   border: 1px solid #dddddd;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
@@ -7061,7 +7060,7 @@ input.uk-search-field {
 }
 .tm-teaser {
   position: relative;
-  height: 665px;
+  height: 600px;
   overflow: hidden;
 }
 .tm-teaser > .uk-container {
@@ -7087,11 +7086,11 @@ input.uk-search-field {
   padding-top: 202px;
 }
 .tm-navbar-fixed .tm-headerbar + .tm-teaser {
-  padding-top: 68px;
+  padding-top: 140px;
 }
 .tm-navbar-fixed .tm-teaser {
-    background-position: center 30%;
-    background-size: 2772px;
+  background-position: 0 0;
+  background-size: 100% 740px;
 }
 .tm-navbar-fixed .tm-toolbar + .tm-headerbar + .tm-teaser {
   padding-top: 202px;
@@ -7113,11 +7112,11 @@ input.uk-search-field {
 .tm-navbar-fixed .tm-headerbar-small .uk-navbar-brand,
 .tm-navbar-fixed .tm-headerbar-small .uk-navbar-content,
 .tm-navbar-fixed .tm-headerbar-small .uk-navbar-toggle {
-  height: 68px;
+  height: 55px;
 }
 .tm-navbar-fixed .tm-headerbar-small .uk-navbar-nav > li > a {
-  height: 68px;
-  line-height: 68px;
+  height: 55px;
+  line-height: 55px;
 }
 .tm-navbar-fixed .tm-headerbar-small .uk-navbar-brand img,
 .tm-navbar-fixed .tm-headerbar-small .uk-navbar-brand a {
@@ -7277,7 +7276,7 @@ input.uk-search-field {
 .tm-teaser {
   background-position: 0 -140px;
   background-size: 100% 740px;
-  color: #5b646b;
+  color: #ffffff;
 }
 .tm-teaser h1,
 .tm-teaser h2,
@@ -7285,10 +7284,10 @@ input.uk-search-field {
 .tm-teaser h4,
 .tm-teaser h5,
 .tm-teaser h6 {
-  color: #243c4f;
+  color: #ffffff;
 }
 .tm-teaser {
-    background-image: url("../../../../../images/modules/frontpage_banner/1920_city_backdrop_bubbles.jpg");
+  background: #238fe3;
 }
 .tm-headerbar {
   background: #238fe3;
@@ -7300,7 +7299,7 @@ input.uk-search-field {
   background: #238fe3;
 }
 .tm-teaser-text-primary {
-  color: #243c4f;
+  color: #ffffff;
   text-transform: none;
   letter-spacing: 0;
   font-weight: 300;
@@ -7308,7 +7307,7 @@ input.uk-search-field {
   line-height: 60pt;
 }
 .tm-teaser-text-secondary {
-  color: #5b646b;
+  color: #ffffff;
   font-weight: 300;
   font-size: 22px;
   line-height: 26px;
@@ -7508,7 +7507,7 @@ svg.uk-circlechart text {
 }
 /* Responsive
  ========================================================================== */
-@media (max-width: 1220px) {
+@media (max-width: 960px) {
   .tm-article-blog .tm-article-image {
     width: 150px;
     height: 150px;
@@ -7526,7 +7525,7 @@ svg.uk-circlechart text {
 }
 @media (max-width: 1025px) {
   .uk-panel.uk-panel-box {
-    padding: 15px;
+    padding: 0;
   }
   .uk-dropdown-navbar {
     margin-top: 0;
@@ -7541,7 +7540,7 @@ svg.uk-circlechart text {
     height: 55px;
   }
   .tm-headerbar + .tm-wrapper {
-    padding-top: 68px !important;
+    padding-top: 55px !important;
   }
   .tm-toolbar + .tm-headerbar + .tm-wrapper {
     padding-top: 117px !important;
@@ -7559,7 +7558,7 @@ svg.uk-circlechart text {
     top: -10px;
   }
   .tm-navbar-fixed .tm-headerbar {
-    height: 68px;
+    height: 55px;
   }
   .tm-headerbar,
   .uk-navbar-brand,
@@ -7583,7 +7582,7 @@ svg.uk-circlechart text {
     padding-top: 177px;
   }
   .tm-navbar-fixed .tm-headerbar + .tm-teaser {
-    padding-top: 68px;
+    padding-top: 55px;
   }
   .tm-navbar-fixed .tm-toolbar + .tm-headerbar + .tm-teaser {
     padding-top: 117px;
@@ -7721,12 +7720,12 @@ svg.uk-circlechart text {
 .alignleft {
   display: block;
   float: left;
-  margin-right: 15px;
+  margin-right: 0;
 }
 .alignright {
   display: block;
   float: right;
-  margin-left: 15px;
+  margin-left: 0;
 }
 .aligncenter {
   display: block;
