@@ -184,7 +184,7 @@
 	<?php echo $hook_beforearticle; ?>
 
 	<?php if ($article) : ?>
-	<div>
+	<div class="article-text">
 		<?php echo $article; ?>
 	</div>
 	<?php endif; ?>

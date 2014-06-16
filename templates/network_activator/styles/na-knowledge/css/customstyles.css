@@ -286,3 +286,34 @@ h1, .uk-h1 {
 .footer-social-icon {
     margin-left: 10px;
 }
+
+/* article text black */
+
+@media (min-width: 768px) {
+    .uk-width-medium-1-2, .uk-width-medium-2-4, .uk-width-medium-3-6, .uk-width-medium-5-10 {
+        width: 50%;
+        padding-right: 50px;
+    }
+
+    .uk-width-medium-1-2 .article-text {
+        height: 160px;
+    }
+}
+
+/* Articles */
+
+.knowledge-read-more {
+    text-align: center;
+    float: right;
+    width: 170px;
+    color: #FFF;
+    background: #238FE3;
+    padding: 8px;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.knowledge-read-more a {
+    color: #FFF;
+}
