@@ -296,10 +296,6 @@ h6 {
         width: 50%;
         padding-right: 50px;
     }
-
-    .uk-width-medium-1-2 .uk-article {
-        height: 580px;
-    }
 }
 
 .article-read-more {
@@ -545,11 +541,32 @@ h6 {
     float: right;
 }
 
+.knowledge-read-more a {
+    color: #FFF;
+    text-decoration: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    letter-spacing: 0;
+}
+
+h1, .uk-h1 {
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.uk-article-title {
+    font-size: 21px;
+    line-height: 25px;
+    font-weight: normal;
+    text-transform: none;
+    font-family: 'Open Sans';
+    font-weight: lighter;
+}
+
 /* Modukle padding */
 
 .tm-block-padding-top {
     padding-top: 40px;
 }
-
-/* Gallery caption */
 

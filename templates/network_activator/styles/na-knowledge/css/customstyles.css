@@ -48,23 +48,7 @@
 }
 
 
-/* Text Format Overrides */
 
-h1, h2, h3, h4, h5, h6 {
-    letter-spacing: 0;
-}
-
-h1, .uk-h1 {
-    font-size: 40px;
-    line-height: 40px;
-}
-
-.uk-article-title {
-    font-size: 21px;
-    line-height: 25px;
-    font-weight: normal;
-    text-transform: none;
-}
 
 /* Teaser */
 
@@ -320,4 +304,29 @@ h1, .uk-h1 {
 
 .knowledge-article-intro {
     height: 450px;
+}
+
+.knowledge-read-more-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Teaser artiler */
+
+.knowledge-base-wrapper {
+    margin-top: -40px;
+    margin-bottom: 50px;
+}
+
+.knowledge-base-intro-title {
+    width: 920px;
+}
+
+.caption {
+    padding: 20px;
+    margin: 20px;
+}
+
+.knowledge-teaser-button {
+    margin-bottom: 0px
 }
