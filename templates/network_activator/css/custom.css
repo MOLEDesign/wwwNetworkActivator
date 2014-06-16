@@ -41,7 +41,6 @@ body:after{
     padding: 5px;
     font-weight: 500;
     max-width: 285px;
-    height: 100px;
 }
 
 .team-social {
@@ -297,6 +296,10 @@ h6 {
         width: 50%;
         padding-right: 50px;
     }
+
+    .uk-width-medium-1-2 .uk-article {
+        height: 580px;
+    }
 }
 
 .article-read-more {
@@ -534,6 +537,12 @@ h6 {
     font-family: 'Open Sans';
     font-weight: lighter;
     color: #a2a4a8;
+}
+
+/* Articles */
+
+.knowledge-read-more {
+    float: right;
 }
 
 /* Modukle padding */

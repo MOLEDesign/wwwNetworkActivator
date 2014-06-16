@@ -38,7 +38,7 @@ $args = array(
 	'hook_aftertitle' => !$params->get('show_intro') ? $this->item->event->afterDisplayTitle : '',
 	'hook_beforearticle' => $this->item->event->beforeDisplayContent,
 	'hook_afterarticle' => $this->item->event->afterDisplayContent,
-	'article' => $this->item->introtext,
+	'article' => '<div class="knowledge-article-intro">'.$this->item->introtext.'</div>',
 	'tags' =>  $tagsoutput,
 	'edit' => '',
 	'url' => '',

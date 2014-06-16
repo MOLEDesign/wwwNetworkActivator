@@ -317,3 +317,7 @@ h1, .uk-h1 {
 .knowledge-read-more a {
     color: #FFF;
 }
+
+.knowledge-article-intro {
+    height: 450px;
+}
