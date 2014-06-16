@@ -118,6 +118,16 @@
 
 <article class="uk-article" <?php if ($permalink) echo 'data-permalink="'.$permalink.'"'; ?>>
 
+    <?php if ($title) : ?>
+        <h1 class="uk-article-title">
+            <?php if ($url && $title_link) : ?>
+                <a href="<?php echo $url; ?>" title="<?php echo $title; ?>"><?php echo $title; ?></a>
+            <?php else : ?>
+                <?php echo $title; ?>
+            <?php endif; ?>
+        </h1>
+    <?php endif; ?>
+
 	<?php if ($image && $image_alignment == 'none') : ?>
 		<?php if ($url) : ?>
 			<a href="<?php echo $url; ?>" title="<?php echo $image_caption; ?>"><img src="<?php echo $image; ?>" alt="<?php echo $image_alt; ?>"></a>
@@ -134,15 +144,7 @@
         <?php endif; ?>
     <?php endif; ?>
 
-	<?php if ($title) : ?>
-	<h1 class="uk-article-title">
-		<?php if ($url && $title_link) : ?>
-			<a href="<?php echo $url; ?>" title="<?php echo $title; ?>"><?php echo $title; ?></a>
-		<?php else : ?>
-			<?php echo $title; ?>
-		<?php endif; ?>
-	</h1>
-	<?php endif; ?>
+
 
 	<?php echo $hook_aftertitle; ?>
 
