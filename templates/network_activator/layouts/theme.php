@@ -1,8 +1,8 @@
 <?php
 /**
 * @package   network_activator
-* @author    YOOtheme http://www.yootheme.com
-* @copyright Copyright (C) YOOtheme GmbH
+* @author    MOLEDesign http://www.moledesign.biz
+* @copyright WARP Copyright (C) YOOtheme GmbH
 * @license   http://www.gnu.org/licenses/gpl.html GNU/GPL
 */
 
