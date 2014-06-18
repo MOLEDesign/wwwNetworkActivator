@@ -38,7 +38,7 @@ $args = array(
 	'hook_aftertitle' => !$params->get('show_intro') ? $this->item->event->afterDisplayTitle : '',
 	'hook_beforearticle' => $this->item->event->beforeDisplayContent,
 	'hook_afterarticle' => $this->item->event->afterDisplayContent,
-	'article' => $this->item->introtext,
+	'article' => '<div class="knowledge-article-intro">'.$this->item->introtext.'</div>',
 	'tags' =>  $tagsoutput,
 	'edit' => '',
 	'url' => '',
@@ -77,7 +77,7 @@ if ($params->get('show_readmore') && $this->item->readmore) {
 	} elseif ($readmore = $this->item->alternative_readmore) {
 		$args['more'] = $readmore;
 	} else {
-		$args['more'] = '<div class="knowledge-read-more">' . JText::_('TPL_WARP_CONTINUE_READING') . '</div>';
+		$args['more'] = '<div class="knowledge-read-more">' . JText::_('READ MORE') . '</div>';
 	}
 }
 
