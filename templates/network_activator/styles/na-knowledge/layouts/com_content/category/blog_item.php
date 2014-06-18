@@ -23,12 +23,12 @@ $tagsoutput = $this->item->tagLayout->render($this->item->tags->itemTags);
 // template args
 $args = array(
 	'permalink' => JRoute::_(ContentHelperRoute::getArticleRoute($this->item->slug, $this->item->catid), true, -1),
+    'title' => $params->get('show_title') ? $this->escape($this->item->title) : '',
+    'title_link' => $params->get('link_titles'),
 	'image' => isset($images->image_intro) ? htmlspecialchars($images->image_intro) : '',
 	'image_alignment' => !isset($images->float_intro) || empty($images->float_intro) ? htmlspecialchars($params->get('float_intro')) : htmlspecialchars($images->float_intro),
 	'image_alt' => isset($images->image_intro_alt) ? htmlspecialchars($images->image_intro_alt) : '',
 	'image_caption' => isset($images->image_intro_caption) ? htmlspecialchars($images->image_intro_caption) : '',
-	'title' => $params->get('show_title') ? $this->escape($this->item->title) : '',
-	'title_link' => $params->get('link_titles'),
 	'author' => '',
 	'author_url' => !empty($this->item->contactid) && $params->get('link_author') == true ? JRoute::_('index.php?option=com_contact&view=contact&id='.$this->item->contactid) : '',
 	'date' => $params->get('show_create_date') ? $this->item->created : '',
