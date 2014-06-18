@@ -587,3 +587,15 @@ h1, .uk-h1 {
     max-width: 323px;
     z-index: 10000;
 }
+
+
+/* teaser */
+
+.teaser-button {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.teaser-button:hover {
+    text-decoration: none;
+}
