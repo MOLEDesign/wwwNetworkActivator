@@ -253,7 +253,7 @@ h6 {
 
 
 .uk-navbar-nav > li {
-    margin: 0 20px;
+    margin: 0 5px;
 }
 
 .uk-navbar-nav > li > a {
@@ -266,8 +266,8 @@ h6 {
     line-height: 35px;
     border: 1px solid #238fe2;
     border-radius: 7px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
     color: #FFF;
     margin-top: 14px;
 }
@@ -275,10 +275,10 @@ h6 {
 .tm-navbar-fixed .tm-headerbar-small .uk-navbar-nav > li > a:hover {
     height: 38px;
     line-height: 35px;
-    border: 1px solid #FFF;
+    border: 1px solid #238fe2;
     border-radius: 7px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
     color: #FFF;
     background-color: #52a6e9;
 }
@@ -298,7 +298,7 @@ h6 {
     }
 
     .uk-width-medium-1-2 .uk-article {
-        height: 400px;
+        height: 580px;
     }
 }
 
