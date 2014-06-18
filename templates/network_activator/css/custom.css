@@ -297,14 +297,11 @@ h6 {
         width: 50%;
         padding-right: 50px;
     }
-<<<<<<< HEAD
 
     .uk-width-medium-1-2 .uk-article {
-        height: 580px;
+        height: 650px;
     }
-=======
->>>>>>> FETCH_HEAD
-}
+
 
 .article-read-more {
     color: #000000;
@@ -598,4 +595,13 @@ h1, .uk-h1 {
 
 .teaser-button:hover {
     text-decoration: none;
+}
+
+/* Anchor Fix */
+
+.anchor-fix {
+    display: block;
+    position: relative;
+    top: -90px;
+    visibility: hidden;}
 }

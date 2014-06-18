@@ -163,7 +163,7 @@
 .wk-slideshow-tabsbar .slides-container {
     border: none;
     background: inherit;
-    border-radius: none;
+    border-radius: 0;
 }
 
 .wk-slideshow-tabsbar .nav li {
@@ -173,7 +173,7 @@
 .wk-slideshow-tabsbar .nav-container {
     border: none;
     background: inherit;
-    border-radius: none;
+    border-radius: 0;
     box-shadow: none;
     text-shadow: none;
 }
@@ -303,7 +303,7 @@
 }
 
 .knowledge-article-intro {
-    height: 450px;
+    height: 150px;
 }
 
 .knowledge-read-more-link {
@@ -330,3 +330,4 @@
 .knowledge-teaser-button {
     margin-bottom: 0px
 }
+
