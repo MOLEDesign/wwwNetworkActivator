@@ -88,7 +88,7 @@ h1, .uk-h1 {
 }
 
 .tm-navbar-fixed .tm-teaser {
-    background-position: center 380%;
+    background-position: center 100%;
     background-size: 1980px;
     color: #8dd1f6;
     background-repeat: repeat-x;
@@ -157,6 +157,7 @@ h1, .uk-h1 {
         position: relative;
         height: 450px;
         overflow: hidden;
+        background-position: center -20% !important;
     }
 }
 
