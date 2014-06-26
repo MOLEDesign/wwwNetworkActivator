@@ -605,3 +605,42 @@ h1, .uk-h1 {
     top: -90px;
     visibility: hidden;}
 }
+
+/* Fancy box styling */
+
+#fancybox-overlay {
+    background-color: #238fe3 !important;
+    opacity: 1 !important;
+}
+
+#fancybox-outer {
+    background: #F5F5F5 !important;
+    color: #000 !important;
+}
+
+#fancybox-content {
+    color: #5b646b;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    border: none;
+}
+
+#fancybox-content input[type="button"] {
+    margin-top: 15px;
+    padding: 0px 30px;
+    min-width: 165px;
+    color: #FFFFFF;
+    background: #10B700;
+    height: 50px;
+    border: none;
+}
+
+#fancybox-content hr {
+    display: block !important;
+    width: 260px !important;
+    background: url("http://preview.networkactivator.com/images/modules/logos/dark_logo.jpg")50% 50% no-repeat !important;
+    height: 61px !important;
+    margin: 0px auto;
+    padding-bottom: 50px;
+}
