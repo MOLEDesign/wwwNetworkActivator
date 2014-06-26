@@ -169,6 +169,14 @@ h1, .uk-h1 {
     }
 }
 
+/* Blog layout */
+@media (min-width: 960px) {
+
+    .uk-article a img {
+        max-width: 280px;
+    }
+}
+
 /* Widgetkit Overrides */
 
 .wk-slideshow-tabsbar .nav, .wk-slideshow-tabsbar .nav li, .wk-slideshow-tabsbar .nav span {

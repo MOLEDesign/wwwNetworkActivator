@@ -331,3 +331,10 @@
     margin-bottom: 0px
 }
 
+/* Blog layout */
+@media (min-width: 960px) {
+
+    .uk-article a img {
+        max-width: 425px;
+    }
+}
