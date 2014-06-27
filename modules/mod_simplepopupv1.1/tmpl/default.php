@@ -4,11 +4,7 @@
  * 
  * @package    Joomla
  * @subpackage Module
-<<<<<<< HEAD
- * @author Anders Wasén
-=======
  * @author Anders Wasï¿½n
->>>>>>> FETCH_HEAD
  * @link http://wasen.net/
  * @license		GNU/GPL, see LICENSE.php
  * mod_simplepopupJ161.1 is free software. This version may have been modified pursuant
@@ -367,11 +363,7 @@ jQuery(document).ready(function() {
 						break;
 				}
 				
-<<<<<<< HEAD
-				$spu_entermessage .= '<br /><div style="width: 95%; text-align:right; ">'.$yesaction.'&nbsp;'.$noaction.'</div>';
-=======
 				$spu_entermessage .= '<br /><div>'.$yesaction.'&nbsp;'.$noaction.'</div>';
->>>>>>> FETCH_HEAD
 
 			} else {
 			
