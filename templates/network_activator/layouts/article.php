@@ -78,9 +78,11 @@
 		<a class="uk-margin-top uk-width-1-1 uk-width-medium-1-3" href="<?php echo $url; ?>" title="<?php echo $title; ?>"><button class="uk-button uk-button-small uk-float-right"><?php echo $more; ?></button></a>
 	<?php endif; ?>
 
+    <div class="tagsspace">
 	<?php if ($tags) : ?>
 	<p class="uk-float-left"><?php echo JText::_('TPL_WARP_TAGS').': '.$tags; ?></p>
 	<?php endif; ?>
+        </div>
 
 	<?php if ($edit) : ?>
 	<p><?php echo $edit; ?></p>
