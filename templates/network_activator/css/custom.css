@@ -644,3 +644,11 @@ h1, .uk-h1 {
     margin: 0px auto;
     padding-bottom: 50px;
 }
+
+
+/* Thank you message */
+
+.thankscontainer {
+    text-align: left;
+
+}
