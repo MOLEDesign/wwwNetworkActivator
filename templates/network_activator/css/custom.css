@@ -20,6 +20,8 @@ body:after{
 
 .team-image {
     border: solid 3px white;
+    height: 156px;
+    width: 156px;
 }
 
 .team-title {
