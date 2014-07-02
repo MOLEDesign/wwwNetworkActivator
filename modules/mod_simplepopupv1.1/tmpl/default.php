@@ -332,37 +332,37 @@ jQuery(document).ready(function() {
 				} else {
 					$spu_entermessage = $spu_verificationmsg;
 				}
-				
+
+                switch ($spu_verificationno) {
+                    case "close":
+                        $noaction = '<input type="button" class="preview-no-button" value="'.$spu_verificationnotext.'" onclick="javascript:'.$novercookie.' jQuery.fancybox.close();" />';
+                        break;
+                    case "redir":
+                        $noaction = '<input type="button" class="preview-no-button" value="'.$spu_verificationnotext.'" onclick="javascript:'.$novercookie.' window.location=\''.$spu_verificationnoaction.'\';" />';
+                        break;
+                    case "msg":
+                        $noaction = '<input type="button" class="preview-no-button" value="'.$spu_verificationnotext.'" onclick="javascript:'.$novercookie.' alert(\''.$spu_verificationnoaction.'\');" />';
+                        break;
+                    case "jscript":
+                        $noaction = '<input type="button" class="preview-no-button" value="'.$spu_verificationnotext.'" onclick="javascript:'.$novercookie.' '.$spu_verificationnoaction.';" />';
+                        break;
+                }
+
 				switch ($spu_verificationyes) {
 					case "close":
-						$yesaction = '<input type="button" value="'.$spu_verificationyestext.'" onclick="javascript:'.$vercookie.' jQuery.fancybox.close();" />';
+						$yesaction = '<input type="button" class="preview-yes-button" value="'.$spu_verificationyestext.'" onclick="javascript:'.$vercookie.' jQuery.fancybox.close();" />';
 						break;
 					case "redir":
-						$yesaction = '<input type="button" value="'.$spu_verificationyestext.'" onclick="javascript:'.$vercookie.' window.location=\''.$spu_verificationyesaction.'\';" />';
+						$yesaction = '<input type="button" class="preview-yes-button" value="'.$spu_verificationyestext.'" onclick="javascript:'.$vercookie.' window.location=\''.$spu_verificationyesaction.'\';" />';
 						break;
 					case "msg":
-						$yesaction = '<input type="button" value="'.$spu_verificationyestext.'" onclick="javascript:'.$vercookie.' spu_createCookie(\'spu_verifyyes\'); alert(\''.$spu_verificationyesaction.'\');" />';
+						$yesaction = '<input type="button" class="preview-yes-button" value="'.$spu_verificationyestext.'" onclick="javascript:'.$vercookie.' spu_createCookie(\'spu_verifyyes\'); alert(\''.$spu_verificationyesaction.'\');" />';
 						break;
 					case "jscript":
-						$yesaction = '<input type="button" value="'.$spu_verificationyestext.'" onclick="javascript:'.$vercookie.' spu_createCookie(\'spu_verifyyes\'); '.$spu_verificationyesaction.';" />';
+						$yesaction = '<input type="button" class="preview-yes-button" value="'.$spu_verificationyestext.'" onclick="javascript:'.$vercookie.' spu_createCookie(\'spu_verifyyes\'); '.$spu_verificationyesaction.';" />';
 						break;
 				}
-				
-				switch ($spu_verificationno) {
-					case "close":
-						$noaction = '<input type="button" value="'.$spu_verificationnotext.'" onclick="javascript:'.$novercookie.' jQuery.fancybox.close();" />';
-						break;
-					case "redir":
-						$noaction = '<input type="button" value="'.$spu_verificationnotext.'" onclick="javascript:'.$novercookie.' window.location=\''.$spu_verificationnoaction.'\';" />';
-						break;
-					case "msg":
-						$noaction = '<input type="button" value="'.$spu_verificationnotext.'" onclick="javascript:'.$novercookie.' alert(\''.$spu_verificationnoaction.'\');" />';
-						break;
-					case "jscript":
-						$noaction = '<input type="button" value="'.$spu_verificationnotext.'" onclick="javascript:'.$novercookie.' '.$spu_verificationnoaction.';" />';
-						break;
-				}
-				
+
 				$spu_entermessage .= '<br /><div>'.$yesaction.'&nbsp;'.$noaction.'</div>';
 
 			} else {
