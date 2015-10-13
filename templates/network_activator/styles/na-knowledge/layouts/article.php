@@ -10,9 +10,9 @@
 
 			<?php else : ?>
 
-			<a href="<?php echo $url; ?>">
+
 				<div class="tm-article-image tm-blog-image-placeholder"></div>
-			</a>
+
 		<?php endif; ?>
 		</div>
 
@@ -33,7 +33,7 @@
 	
 	<?php if ($image && $image_alignment != 'none') : ?>
 		<?php if ($url) : ?>
-			<a class="uk-align-<?php echo $image_alignment; ?>" href="<?php echo $url; ?>" title="<?php echo $image_caption; ?>"><img src="<?php echo $image; ?>" alt="<?php echo $image_alt; ?>"></a>
+			<img src="<?php echo $image; ?>" alt="<?php echo $image_alt; ?>">
 		<?php else : ?>
 			<img class="uk-align-<?php echo $image_alignment; ?>" src="<?php echo $image; ?>" alt="<?php echo $image_alt; ?>">
 		<?php endif; ?>
